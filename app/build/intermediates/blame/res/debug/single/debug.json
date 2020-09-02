@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/font_nanum_bold.ttf.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/font/nanum_bold.ttf"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_drawer_header.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/drawer_header.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_munaqosah_mhs.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_munaqosah_mhs.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_toolbar_default.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/toolbar_default.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/font_roboto_thin.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/font/roboto_thin.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_sempro_mhs.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_sempro_mhs.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_toolbar_default_icon.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/toolbar_default_icon.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_portal_informasi.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_portal_informasi.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_item_card_banner.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/item_card_banner.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_judul_mhs.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_judul_mhs.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_icon_uin.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/icon_uin.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_menu.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_item_list_pengajuan.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/item_list_pengajuan.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/font_nanum_extra_old.ttf.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/font/nanum_extra_old.ttf"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_card.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_card.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable-v24_doted_line.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable-v24/doted_line.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_judul.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_judul.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/font_roboto_bold.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/font/roboto_bold.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_dashboard_mhs.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_dashboard_mhs.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_file_upload_black_24dp.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_file_upload_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_content1.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/content1.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_pengumuman.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_pengumuman.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_judul_dosen.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_judul_dosen.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_item_pengumuman.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/item_pengumuman.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_menu_dash.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_menu_dash.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_sempro.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_sempro.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_user_header_bg.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/user_header_bg.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/font_nanum_regular.ttf.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/font/nanum_regular.ttf"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_shape_indicator_active.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/shape_indicator_active.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_keluar.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_keluar.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_drawer_item.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/drawer_item.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_content2.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/content2.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_kompre_dosen.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_kompre_dosen.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_toolbar_default_in.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/toolbar_default_in.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_unlock.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_unlock.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_kompre.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_kompre.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_list.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_list.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_userz.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_userz.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_about.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_about.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_address.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_address.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_shape_indicator_unactive.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/shape_indicator_unactive.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_active_dot.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/active_dot.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_munaqosah_dosen.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_munaqosah_dosen.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_shape_indicator_orange.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/shape_indicator_orange.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_bg_rounded_primary.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/bg_rounded_primary.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_munaqosah.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_munaqosah.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_dashboard_dosen.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_dashboard_dosen.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_doted_line.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/doted_line.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable-v24_shape_indicator_active.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable-v24/shape_indicator_active.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_shape_spinner.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/shape_spinner.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/xml_network_policy.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/xml/network_policy.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_ic_back_left.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/ic_back_left.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable-v24_nonactive_dot.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable-v24/nonactive_dot.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_kompre_mhs.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_kompre_mhs.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/layout_activity_sempro_dosen.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/layout/activity_sempro_dosen.xml"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/res/merged/debug/drawable_dialogbtn.xml.flat",
+        "source": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/src/main/res/drawable/dialogbtn.xml"
+    }
+]

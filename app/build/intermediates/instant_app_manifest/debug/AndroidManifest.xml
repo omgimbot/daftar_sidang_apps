@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="omgimbot.app.sidangapps"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="omgimbot.app.sidangapps.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="omgimbot.app.sidangapps.features.webview.PortalInformasiActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.mhs.pengumuman.PengumumanActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.dosen.kompre.KompreDosenActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.dosen.munaqosah.MunaqosahDosenActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.dosen.sempro.SemproDosenActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.mhs.kompre.KompreMhsActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.mhs.munaqosah.MunaqosahMhsActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.mhs.sempro.SemproMhsActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.mhs.judul.JudulMhsActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.dosen.judul.JudulDosenActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.mhs.dashboard.DashboardMhsActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.dosen.dashboard.DashboardDosenActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.auth.regist.RegisterActivity" />
+        <activity
+            android:name="omgimbot.app.sidangapps.features.auth.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSubs"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nbsp.materialfilepicker.ui.FilePickerActivity"
+            android:theme="@style/MFP_BaseTheme" >
+        </activity>
+        <activity
+            android:name="com.obsez.android.lib.filechooser.permissions.PermissionActivity"
+            android:label=""
+            android:theme="@style/Theme.Transparent" />
+
+        <provider
+            android:name="net.grandcentrix.tray.provider.TrayContentProvider"
+            android:authorities="omgimbot.app.sidangapps.tray"
+            android:exported="false"
+            android:multiprocess="false" />
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="omgimbot.app.sidangapps.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

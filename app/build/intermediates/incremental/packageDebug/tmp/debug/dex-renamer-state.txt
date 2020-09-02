@@ -1,0 +1,4 @@
+#Wed Sep 02 21:17:28 WIB 2020
+base.0=/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

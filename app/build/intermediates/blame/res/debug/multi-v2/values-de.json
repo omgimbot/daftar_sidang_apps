@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
+            "map": [
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "35",
+                        "startColumns": "4",
+                        "startOffsets": "3225",
+                        "endColumns": "100",
+                        "endOffsets": "3321"
+                    }
+                },
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/d09688f0f1d37c7f7307ca2193907bba/jetified-materialfilepicker-1.9.1/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,106,174,215,263,319,374,425,471,524,568,613,663,721,766",
+                        "endColumns": "50,67,40,47,55,54,50,45,52,43,44,49,57,44,46",
+                        "endOffsets": "101,169,210,258,314,369,420,466,519,563,608,658,716,761,808"
+                    },
+                    "to": {
+                        "startLines": "29,32,37,38,39,40,41,42,43,44,45,46,47,48,49",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2832,2998,3395,3436,3484,3540,3595,3646,3692,3745,3789,3834,3884,3942,3987",
+                        "endColumns": "50,67,40,47,55,54,50,45,52,43,44,49,57,44,46",
+                        "endOffsets": "2878,3061,3431,3479,3535,3590,3641,3687,3740,3784,3829,3879,3937,3982,4029"
+                    }
+                },
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/ef8a364a6a39421e69c96cf68eeb3e63/appcompat-1.1.0/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,308,420,506,612,727,805,881,973,1066,1162,1263,1371,1471,1575,1673,1771,1868,1949,2060,2162,2260,2367,2470,2574,2730,2832",
+                        "endColumns": "104,97,111,85,105,114,77,75,91,92,95,100,107,99,103,97,97,96,80,110,101,97,106,102,103,155,101,80",
+                        "endOffsets": "205,303,415,501,607,722,800,876,968,1061,1157,1258,1366,1466,1570,1668,1766,1863,1944,2055,2157,2255,2362,2465,2569,2725,2827,2908"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,308,420,506,612,727,805,881,973,1066,1162,1263,1371,1471,1575,1673,1771,1868,1949,2060,2162,2260,2367,2470,2574,2730,3144",
+                        "endColumns": "104,97,111,85,105,114,77,75,91,92,95,100,107,99,103,97,97,96,80,110,101,97,106,102,103,155,101,80",
+                        "endOffsets": "205,303,415,501,607,722,800,876,968,1061,1157,1258,1366,1466,1570,1668,1766,1863,1944,2055,2157,2255,2362,2465,2569,2725,2827,3220"
+                    }
+                },
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/8468972b4278c5a9630ffddbd842cbdc/jetified-android-file-chooser-master-SNAPSHOT/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,112,170,248",
+                        "endColumns": "56,57,77,68",
+                        "endOffsets": "107,165,243,312"
+                    },
+                    "to": {
+                        "startLines": "30,31,33,36",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2883,2940,3066,3326",
+                        "endColumns": "56,57,77,68",
+                        "endOffsets": "2935,2993,3139,3390"
+                    }
+                }
+            ]
+        }
+    ]
+}

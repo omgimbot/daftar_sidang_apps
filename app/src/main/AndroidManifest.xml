@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="omgimbot.app.sidangapps">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".features.webview.PortalInformasiActivity"></activity>
+        <activity android:name=".features.mhs.pengumuman.PengumumanActivity" />
+        <activity android:name=".features.dosen.kompre.KompreDosenActivity" />
+        <activity android:name=".features.dosen.munaqosah.MunaqosahDosenActivity" />
+        <activity android:name=".features.dosen.sempro.SemproDosenActivity" />
+        <activity android:name=".features.mhs.kompre.KompreMhsActivity" />
+        <activity android:name=".features.mhs.munaqosah.MunaqosahMhsActivity" />
+        <activity android:name=".features.mhs.sempro.SemproMhsActivity" />
+        <activity android:name=".features.mhs.judul.JudulMhsActivity" />
+        <activity android:name=".features.dosen.judul.JudulDosenActivity" />
+        <activity android:name=".features.mhs.dashboard.DashboardMhsActivity" />
+        <activity android:name=".features.dosen.dashboard.DashboardDosenActivity" />
+        <activity android:name=".features.auth.regist.RegisterActivity" />
+        <activity
+            android:name=".features.auth.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSubs"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
