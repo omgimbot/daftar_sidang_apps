@@ -18,7 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".features.webview.PortalInformasiActivity"></activity>
+        <activity android:name=".features.admin.dashboard.DashboardAdminActivity"></activity>
+        <activity android:name=".features.webview.PortalInformasiActivity" />
         <activity android:name=".features.mhs.pengumuman.PengumumanActivity" />
         <activity android:name=".features.dosen.kompre.KompreDosenActivity" />
         <activity android:name=".features.dosen.munaqosah.MunaqosahDosenActivity" />

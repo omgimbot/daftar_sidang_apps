@@ -1,4 +1,4 @@
-#Wed Sep 02 21:17:28 WIB 2020
-base.0=/Users/admin/Projects/aplikasi sidang/SIdangApps/app/build/intermediates/dex/debug/out/classes.dex
+#Wed Dec 02 14:04:23 ICT 2020
+base.0=D\:\\project\\Bram Krisna Danu\\android\\revisi\\p1\\daftar_sidang_apps\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
