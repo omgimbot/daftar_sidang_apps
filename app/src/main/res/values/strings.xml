@@ -15,6 +15,20 @@
     <string name="date">00 Januari 0000</string>
     <string name="title_dashboard">Profile</string>
     <string name="loading">Memuat Permintaan...</string>
+    <string-array name="mk">
+        <item >Tahuid/ilmu Kalam Dan Akhlak</item>
+        <item>Ibadah Dan Muamalah</item>
+        <item>Pendidikan Matematika</item>
+        <item>Keterampilan Pengajaran</item>
+        <item>Keilmuan Matematika I</item>
+        <item>Keilmuan Matematika II</item>
+    </string-array>
+    <string name="mk1">Tahuid/ilmu Kalam Dan Akhlak</string>
+    <string name="mk2">Ibadah Dan Muamalah</string>
+    <string name="mk3">Pendidikan Matematia</string>
+    <string name="mk4">Keterampilan Pengajaran</string>
+    <string name="mk5">Keilmuan Matematika I</string>
+    <string name="mk6">Keilmuan Matematika II</string>
     <string name="title_exit">Exit</string>
     <string name="title_anak">Data Anak</string>
     <string name="next">SELANJUTNYA</string>
@@ -305,6 +319,9 @@
     <string name="check">Masukan NIK Anda</string>
     <string name="signin">Masuk</string>
     <string name="signup">Daftar</string>
+    <string name="save">Simpan</string>
+    <string name="dosen">Dosen</string>
+    <string name="mhs">Mahasiswa</string>
     <string name="go_login">Sudah punya akun ? silahkan masuk !</string>
     <string name="go_regist">Belum punya akun ? Daftar Sekarang !</string>
     <string name="popup_a">Keuntungan bergabung dengan KPB ?</string>

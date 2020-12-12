@@ -66,6 +66,7 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
     String username , role , nidnDosenPembimbing;
     private LinkedHashMap<String, String> listdosen;
     private LinkedHashMapAdapter<String, String> adapterDosen;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

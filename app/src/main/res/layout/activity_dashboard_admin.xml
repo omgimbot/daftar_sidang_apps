@@ -1,37 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:weightSum="3"
-    android:theme="@style/AppThemeSubs"
+    android:fitsSystemWindows="true"
     tools:context=".features.admin.dashboard.DashboardAdminActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="3"
-        android:gravity="center"
         android:orientation="vertical">
 
-        <ImageView
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:src="@drawable/icon_uin" />
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/signin"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/signin"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/color_default_blue" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/icon_uin" />
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <Button
+                    android:id="@+id/btnMhs"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/mhs"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/color_default_blue" />
+
+                <Button
+                    android:id="@+id/btnDosen"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/dosen"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/color_default_blue" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="0"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/copyright" />
+        </LinearLayout>
     </LinearLayout>
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@android:color/white"
+        app:itemIconTint="@color/color_default_black"
+        app:itemTextColor="@color/color_default_blue">
 
-</LinearLayout>
+        <com.mindorks.placeholderview.PlaceHolderView
+            android:id="@+id/drawerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+    </FrameLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

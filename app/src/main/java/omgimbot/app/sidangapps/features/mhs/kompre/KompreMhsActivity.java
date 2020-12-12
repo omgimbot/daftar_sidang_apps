@@ -110,7 +110,7 @@ public class KompreMhsActivity extends AppCompatActivity implements IJudulMhsVie
         mFakultas.setEnabled(false);
         mProdi.setEnabled(false);
         mFile.setEnabled(false);
-        presenter.cekJudul(nim, "kompre");
+//        presenter.cekJudul(nim, "kompre");
 
     }
 

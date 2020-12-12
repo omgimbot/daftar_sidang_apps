@@ -18,17 +18,17 @@ import omgimbot.app.sidangapps.R;
 public class DashboardDosenActivity_ViewBinding implements Unbinder {
   private DashboardDosenActivity target;
 
-  private View view7f0a00bf;
+  private View view7f0a00c8;
 
-  private View view7f0a00c2;
+  private View view7f0a00cb;
 
-  private View view7f0a00c0;
+  private View view7f0a00c9;
 
-  private View view7f0a00c3;
+  private View view7f0a00cc;
 
-  private View view7f0a0056;
+  private View view7f0a0058;
 
-  private View view7f0a0057;
+  private View view7f0a0059;
 
   @UiThread
   public DashboardDosenActivity_ViewBinding(DashboardDosenActivity target) {
@@ -45,7 +45,7 @@ public class DashboardDosenActivity_ViewBinding implements Unbinder {
     target.toolbarMain = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbarMain'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.mCardJudul, "field 'mCardJudul' and method 'goToJudul'");
     target.mCardJudul = Utils.castView(view, R.id.mCardJudul, "field 'mCardJudul'", CardView.class);
-    view7f0a00bf = view;
+    view7f0a00c8 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -53,7 +53,7 @@ public class DashboardDosenActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mCardSempro, "method 'goToSempro'");
-    view7f0a00c2 = view;
+    view7f0a00cb = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -61,7 +61,7 @@ public class DashboardDosenActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mCardMunaqosah, "method 'goToMunaqosah'");
-    view7f0a00c0 = view;
+    view7f0a00c9 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -69,7 +69,7 @@ public class DashboardDosenActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mCardkompre, "method 'kompre'");
-    view7f0a00c3 = view;
+    view7f0a00cc = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -77,7 +77,7 @@ public class DashboardDosenActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.cardInfoBeasiswa, "method 'cardInfoBeasiswa'");
-    view7f0a0056 = view;
+    view7f0a0058 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -85,7 +85,7 @@ public class DashboardDosenActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.cardPortalInformasi, "method 'cardPortalInformasi'");
-    view7f0a0057 = view;
+    view7f0a0059 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -106,17 +106,17 @@ public class DashboardDosenActivity_ViewBinding implements Unbinder {
     target.toolbarMain = null;
     target.mCardJudul = null;
 
-    view7f0a00bf.setOnClickListener(null);
-    view7f0a00bf = null;
-    view7f0a00c2.setOnClickListener(null);
-    view7f0a00c2 = null;
-    view7f0a00c0.setOnClickListener(null);
-    view7f0a00c0 = null;
-    view7f0a00c3.setOnClickListener(null);
-    view7f0a00c3 = null;
-    view7f0a0056.setOnClickListener(null);
-    view7f0a0056 = null;
-    view7f0a0057.setOnClickListener(null);
-    view7f0a0057 = null;
+    view7f0a00c8.setOnClickListener(null);
+    view7f0a00c8 = null;
+    view7f0a00cb.setOnClickListener(null);
+    view7f0a00cb = null;
+    view7f0a00c9.setOnClickListener(null);
+    view7f0a00c9 = null;
+    view7f0a00cc.setOnClickListener(null);
+    view7f0a00cc = null;
+    view7f0a0058.setOnClickListener(null);
+    view7f0a0058 = null;
+    view7f0a0059.setOnClickListener(null);
+    view7f0a0059 = null;
   }
 }

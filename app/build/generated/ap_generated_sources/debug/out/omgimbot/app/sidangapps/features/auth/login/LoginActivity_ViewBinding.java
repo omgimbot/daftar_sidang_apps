@@ -16,7 +16,7 @@ import omgimbot.app.sidangapps.R;
 public class LoginActivity_ViewBinding implements Unbinder {
   private LoginActivity target;
 
-  private View view7f0a013d;
+  private View view7f0a0158;
 
   @UiThread
   public LoginActivity_ViewBinding(LoginActivity target) {
@@ -31,7 +31,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.mBtnRegis = Utils.findRequiredViewAsType(source, R.id.mBtnRegis, "field 'mBtnRegis'", Button.class);
     view = Utils.findRequiredView(source, R.id.signin, "field 'signin' and method 'login'");
     target.signin = Utils.castView(view, R.id.signin, "field 'signin'", Button.class);
-    view7f0a013d = view;
+    view7f0a0158 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +54,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.mUsername = null;
     target.mPassword = null;
 
-    view7f0a013d.setOnClickListener(null);
-    view7f0a013d = null;
+    view7f0a0158.setOnClickListener(null);
+    view7f0a0158 = null;
   }
 }

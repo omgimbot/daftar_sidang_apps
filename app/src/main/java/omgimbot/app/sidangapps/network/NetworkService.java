@@ -4,9 +4,10 @@ import java.util.List;
 import java.util.Map;
 
 import okhttp3.MultipartBody;
-import okhttp3.RequestBody;
 import omgimbot.app.sidangapps.Utils.CommonRespon;
-import omgimbot.app.sidangapps.features.auth.login.model.Listdosen;
+import omgimbot.app.sidangapps.features.admin.dosen.model.dosenPenguji;
+import omgimbot.app.sidangapps.features.admin.dosen.model.listMk;
+import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
 import omgimbot.app.sidangapps.features.auth.login.model.LoginResponse;
 import omgimbot.app.sidangapps.features.auth.login.model.Users;
 import omgimbot.app.sidangapps.features.mhs.model.daftarModel;
@@ -17,7 +18,6 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
-import retrofit2.http.PUT;
 import retrofit2.http.Part;
 import retrofit2.http.Path;
 
@@ -29,6 +29,12 @@ public interface NetworkService {
     @POST("users/signup")
     Call<CommonRespon> signup(@Body Users registModel);
 
+    @POST("inputPenguji")
+    Call<CommonRespon> inputPenguji(@Body dosenPenguji dosenPengujiModel);
+
+    @GET("getlistpenguji")
+    Call<List<listPenguji>> getListPenguji();
+
     @Multipart
     @POST("/daftar")
     Call<CommonRespon> uploadJudul (@Part MultipartBody.Part file ,  @Part("data") daftarModel model);
@@ -38,6 +44,12 @@ public interface NetworkService {
 
     @GET("listdosen")
     Call<List<Users>> getListDosen();
+
+    @GET("listmk")
+    Call<List<listMk>> getListMk();
+
+    @GET("listmhskompre")
+    Call<List<daftarModel>> getListMhsKompre();
 
     @GET("listpengajuan/{key}/{nidn}")
     Call<List<daftarModel>> listpengajuan(@Path("key") String key,@Path("nidn") String nidn);

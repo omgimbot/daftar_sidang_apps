@@ -22,6 +22,7 @@ import omgimbot.app.sidangapps.App;
 import omgimbot.app.sidangapps.Prefs;
 import omgimbot.app.sidangapps.R;
 import omgimbot.app.sidangapps.Utils.GsonHelper;
+import omgimbot.app.sidangapps.features.admin.dashboard.DashboardAdminActivity;
 import omgimbot.app.sidangapps.features.auth.login.model.LoginResponse;
 import omgimbot.app.sidangapps.features.auth.regist.RegisterActivity;
 import omgimbot.app.sidangapps.features.dosen.dashboard.DashboardDosenActivity;
@@ -52,11 +53,12 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
                     App.getPref().getString(Prefs.PREF_STORE_PROFILE, ""),
                     new LoginResponse()
             );
-            if (mProfile.getResult().getRole().equals("DOSEN")) {
-                this.goToDashboardDosen();
+            if (mProfile.getResult().getRole().equals("ADMIN1")) {
+                this.goToDashboardAdmin1();
             } else if (mProfile.getResult().getRole().equals("MAHASISWA")) {
                 this.goToDashboardMhs();
-            }
+            }else
+                this.goToDashboardAdmin2();
         } else {
             this.initViews();
         }
@@ -73,10 +75,12 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
     @Override
     public void onSigninSuccess(LoginResponse response) {
         presenter.storeProfile(new Gson().toJson(response));
-        if (response.getResult().getRole().equals("DOSEN")) {
-            this.goToDashboardDosen();
+        if (response.getResult().getRole().equals("ADMIN1")) {
+            this.goToDashboardAdmin1();
         } else if (response.getResult().getRole().equals("MAHASISWA")) {
             this.goToDashboardMhs();
+        }else if (response.getResult().getRole().equals("ADMIN2")) {
+            this.goToDashboardAdmin2();
         }
 
     }
@@ -120,8 +124,13 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
         finish();
     }
 
-    public void goToDashboardDosen() {
+    public void goToDashboardAdmin1() {
         startActivity(new Intent(this, DashboardDosenActivity.class));
+        finish();
+    }
+
+    public void goToDashboardAdmin2() {
+        startActivity(new Intent(this, DashboardAdminActivity.class));
         finish();
     }
 

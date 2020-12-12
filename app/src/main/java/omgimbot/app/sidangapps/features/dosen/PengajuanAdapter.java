@@ -89,7 +89,7 @@ public class PengajuanAdapter extends RecyclerView.Adapter<PengajuanAdapter.View
             return ruts.size();
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder {
         TextView mJudul, mNama, mNim, mStatus, mTime, mCount;
         Button mDownload, mSubmit, mTolak;
         ImageView mIndicator;

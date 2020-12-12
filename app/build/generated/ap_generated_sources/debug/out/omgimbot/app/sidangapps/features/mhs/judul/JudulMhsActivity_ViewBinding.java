@@ -18,9 +18,9 @@ import omgimbot.app.sidangapps.R;
 public class JudulMhsActivity_ViewBinding implements Unbinder {
   private JudulMhsActivity target;
 
-  private View view7f0a00c4;
+  private View view7f0a00cd;
 
-  private View view7f0a00d5;
+  private View view7f0a00ef;
 
   @UiThread
   public JudulMhsActivity_ViewBinding(JudulMhsActivity target) {
@@ -40,7 +40,7 @@ public class JudulMhsActivity_ViewBinding implements Unbinder {
     target.mFile = Utils.findRequiredViewAsType(source, R.id.mFile, "field 'mFile'", TextView.class);
     view = Utils.findRequiredView(source, R.id.mChosefile, "field 'mChosefile' and method 'choseFile'");
     target.mChosefile = Utils.castView(view, R.id.mChosefile, "field 'mChosefile'", ImageButton.class);
-    view7f0a00c4 = view;
+    view7f0a00cd = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -49,7 +49,7 @@ public class JudulMhsActivity_ViewBinding implements Unbinder {
     });
     target.mToolbar = Utils.findRequiredViewAsType(source, R.id.toolbar_default_in, "field 'mToolbar'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.mSubmit, "method 'uploadFile'");
-    view7f0a00d5 = view;
+    view7f0a00ef = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -74,9 +74,9 @@ public class JudulMhsActivity_ViewBinding implements Unbinder {
     target.mChosefile = null;
     target.mToolbar = null;
 
-    view7f0a00c4.setOnClickListener(null);
-    view7f0a00c4 = null;
-    view7f0a00d5.setOnClickListener(null);
-    view7f0a00d5 = null;
+    view7f0a00cd.setOnClickListener(null);
+    view7f0a00cd = null;
+    view7f0a00ef.setOnClickListener(null);
+    view7f0a00ef = null;
   }
 }

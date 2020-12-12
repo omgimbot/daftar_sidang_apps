@@ -27,6 +27,11 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="omgimbot.app.sidangapps.features.admin.dosen.inputdosen.InputDosenActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.admin.dosen.listmk.ListMkActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.admin.mhs.pilihpenguji.PilihPengujiMhsActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.admin.mhs.MahasiswaAdminActivity" />
+        <activity android:name="omgimbot.app.sidangapps.features.admin.dashboard.DashboardAdminActivity" />
         <activity android:name="omgimbot.app.sidangapps.features.webview.PortalInformasiActivity" />
         <activity android:name="omgimbot.app.sidangapps.features.mhs.pengumuman.PengumumanActivity" />
         <activity android:name="omgimbot.app.sidangapps.features.dosen.kompre.KompreDosenActivity" />
