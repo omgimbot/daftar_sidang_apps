@@ -18,15 +18,15 @@ import omgimbot.app.sidangapps.R;
 public class DashboardMhsActivity_ViewBinding implements Unbinder {
   private DashboardMhsActivity target;
 
-  private View view7f0a00c8;
-
   private View view7f0a00cb;
 
-  private View view7f0a00c9;
+  private View view7f0a00ce;
 
   private View view7f0a00cc;
 
-  private View view7f0a00ca;
+  private View view7f0a00cf;
+
+  private View view7f0a00cd;
 
   private View view7f0a0058;
 
@@ -47,7 +47,7 @@ public class DashboardMhsActivity_ViewBinding implements Unbinder {
     target.toolbarMain = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbarMain'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.mCardJudul, "field 'mCardJudul' and method 'goToJudul'");
     target.mCardJudul = Utils.castView(view, R.id.mCardJudul, "field 'mCardJudul'", CardView.class);
-    view7f0a00c8 = view;
+    view7f0a00cb = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -56,7 +56,7 @@ public class DashboardMhsActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.mCardSempro, "field 'mCardSempro' and method 'goToSempro'");
     target.mCardSempro = Utils.castView(view, R.id.mCardSempro, "field 'mCardSempro'", CardView.class);
-    view7f0a00cb = view;
+    view7f0a00ce = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -65,7 +65,7 @@ public class DashboardMhsActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.mCardMunaqosah, "field 'mCardMunaqosah' and method 'goToMunaqosah'");
     target.mCardMunaqosah = Utils.castView(view, R.id.mCardMunaqosah, "field 'mCardMunaqosah'", CardView.class);
-    view7f0a00c9 = view;
+    view7f0a00cc = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -74,7 +74,7 @@ public class DashboardMhsActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.mCardkompre, "field 'mCardkompre' and method 'goTokompre'");
     target.mCardkompre = Utils.castView(view, R.id.mCardkompre, "field 'mCardkompre'", CardView.class);
-    view7f0a00cc = view;
+    view7f0a00cf = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -82,7 +82,7 @@ public class DashboardMhsActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mCardPengumuman, "method 'pengumuman'");
-    view7f0a00ca = view;
+    view7f0a00cd = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -122,16 +122,16 @@ public class DashboardMhsActivity_ViewBinding implements Unbinder {
     target.mCardMunaqosah = null;
     target.mCardkompre = null;
 
-    view7f0a00c8.setOnClickListener(null);
-    view7f0a00c8 = null;
     view7f0a00cb.setOnClickListener(null);
     view7f0a00cb = null;
-    view7f0a00c9.setOnClickListener(null);
-    view7f0a00c9 = null;
+    view7f0a00ce.setOnClickListener(null);
+    view7f0a00ce = null;
     view7f0a00cc.setOnClickListener(null);
     view7f0a00cc = null;
-    view7f0a00ca.setOnClickListener(null);
-    view7f0a00ca = null;
+    view7f0a00cf.setOnClickListener(null);
+    view7f0a00cf = null;
+    view7f0a00cd.setOnClickListener(null);
+    view7f0a00cd = null;
     view7f0a0058.setOnClickListener(null);
     view7f0a0058 = null;
     view7f0a0059.setOnClickListener(null);

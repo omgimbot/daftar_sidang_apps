@@ -12,9 +12,12 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -29,6 +32,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import omgimbot.app.sidangapps.App;
 import omgimbot.app.sidangapps.R;
+import omgimbot.app.sidangapps.Utils.CommonRespon;
 import omgimbot.app.sidangapps.Utils.LinkedHashMapAdapter;
 import omgimbot.app.sidangapps.features.admin.MhsKompreAdapter;
 import omgimbot.app.sidangapps.features.admin.MhsKomprePresenter;
@@ -45,8 +49,16 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
     Toolbar mToolbar;
     @BindView(R.id.recycler_view)
     RecyclerView mRecyclerView;
+    @BindView(R.id.layoutSubmit)
+    LinearLayout layoutSubmit;
     @BindView(R.id.mSubmit)
     Button mSubmit;
+    @BindView(R.id.layoutUpdate)
+    LinearLayout layoutUpdate;
+    @BindView(R.id.mUpdate)
+    Button mUpdate;
+    @BindView(R.id.mCancel)
+    Button mCancel;
     @BindView(R.id.mNama)
     EditText mNama;
     @BindView(R.id.mNim)
@@ -56,7 +68,7 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
 
     public  InputDosenPresenter presenter;
     SweetAlertDialog sweetAlertDialog;
-    String kodeMk, mk;
+    String kodeMk, mk, idPenguji;
     public InputDosenAdapter adapter;
     private LinkedHashMap<String, String> listmk, listdosen;
     private LinkedHashMapAdapter<String, String> adaptermk;
@@ -89,9 +101,35 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
         mRecyclerView.clearFocus();
 
         mSubmit.setOnClickListener(view->onSubmit());
+        mUpdate.setOnClickListener(view->doUpdate());
+        mCancel.setOnClickListener(view->refresh());
+
+        layoutUpdate.setVisibility(View.GONE);
+        layoutSubmit.setVisibility(View.VISIBLE);
 
         sweetAlertDialog = new SweetAlertDialog(this, SweetAlertDialog.PROGRESS_TYPE);
         sweetAlertDialog.setTitleText("Loading ...");
+    }
+
+
+    private void doUpdate() {
+
+        String id, nama, nim;
+        nama = mNama.getText().toString();
+        nim = mNim.getText().toString();
+
+
+        if (!nama.equals("") && !nim.equals("") && !kodeMk.equals("0")){
+            mk  = mListmk.getSelectedItem().toString();
+            dosenPenguji model = new dosenPenguji();
+            id = idPenguji;
+            model.setNama(nama);
+            model.setNim(nim);
+            model.setKodeMk(kodeMk);
+            presenter.updatePenguji(id,model);
+        } else {
+            TopSnakbar.showWarning(this, "Data Tidak Boleh Kosong !");
+        }
     }
 
     @Override
@@ -107,13 +145,14 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
     }
 
 
+
     @Override
     public void onSubmit() {
         String nama, nim;
         nama = mNama.getText().toString();
         nim = mNim.getText().toString();
 
-        if (!nama.equals("") && !nim.equals("")){
+        if (!nama.equals("") && !nim.equals("") && !kodeMk.equals("0")){
             mk  = mListmk.getSelectedItem().toString();
             dosenPenguji model = new dosenPenguji();
             model.setNama(nama);
@@ -123,8 +162,30 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
         } else {
             TopSnakbar.showWarning(this, "Data Tidak Boleh Kosong !");
         }
+    }
 
+    @Override
+    public void onEditPenguji( listPenguji data) {
+        layoutSubmit.setVisibility(View.GONE);
+        layoutUpdate.setVisibility(View.VISIBLE);
+        mNama.setText(data.getNama());
+        mNim.setText(data.getNim());
+        idPenguji = data.get_id();
 
+//        String nama, nim;
+//        nama = mNama.getText().toString();
+//        nim = mNim.getText().toString();
+//
+//        if (!nama.equals("") && !nim.equals("")){
+//            mk  = mListmk.getSelectedItem().toString();
+//            dosenPenguji model = new dosenPenguji();
+//            model.setNama(nama);
+//            model.setNim(nim);
+//            model.setKodeMk(kodeMk);
+//            presenter.inputDosen(model);
+//        } else {
+//            TopSnakbar.showWarning(this, "Data Tidak Boleh Kosong !");
+//        }
     }
 
     @Override
@@ -144,15 +205,8 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
     }
 
     @Override
-    public void onSubmitSuccess() {
-        SweetDialogs.commonSuccess(this ,"Input Dosen Sukses", true );
-        this.refres();
-    }
-
-    public void refres(){
-        mNama.setText("");
-        mNim.setText("");
-        presenter.getListPenguji();
+    public void onSubmitSuccess(CommonRespon result) {
+        SweetDialogs.commonSuccessWithIntent(this , "" , string -> this.refresh());
     }
 
     @Override
@@ -162,21 +216,41 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
 
     @Override
     public void onGetListDosen(List<listPenguji> result) {
-        Log.d("data" , new Gson().toJson(result));
+        Log.d("data dosen" , new Gson().toJson(result));
         adapter = new InputDosenAdapter(result, this, this);
         mRecyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
+    }
 
+    @Override
+    public void onDeleteSuccess(CommonRespon result) {
+        SweetDialogs.commonSuccessWithIntent(this , "" , string -> this.refresh());
+    }
+
+    private void refresh() {
+        Intent a = new Intent(this, InputDosenActivity.class );
+        startActivity(a);
+        finish();
+    }
+
+    @Override
+    public void onDelete(listPenguji data) {
+        presenter.hapusPenguji(data.get_id());
+    }
+
+    @Override
+    public void onDeleteFailed(String rm) {
+        SweetDialogs.commonError(this,rm , false);
     }
 
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         switch (parent.getId()) {
+
             case R.id.mListMk:
                 Map.Entry<String, String> itemMk = (Map.Entry<String, String>) mListmk.getSelectedItem();
                 kodeMk = itemMk.getKey();
                 break;
         }
-
     }
 
     @Override

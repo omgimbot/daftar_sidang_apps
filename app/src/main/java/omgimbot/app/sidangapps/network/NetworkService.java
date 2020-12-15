@@ -13,11 +13,13 @@ import omgimbot.app.sidangapps.features.auth.login.model.Users;
 import omgimbot.app.sidangapps.features.mhs.model.daftarModel;
 import retrofit2.Call;
 import retrofit2.http.Body;
+import retrofit2.http.DELETE;
 import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Part;
 import retrofit2.http.Path;
 
@@ -31,6 +33,12 @@ public interface NetworkService {
 
     @POST("inputPenguji")
     Call<CommonRespon> inputPenguji(@Body dosenPenguji dosenPengujiModel);
+
+    @PUT("updatePenguji/{id}")
+    Call<CommonRespon> updatePenguji(@Path("id") String id, @Body dosenPenguji dosenPengujiModel);
+
+    @DELETE("hapuspenguji/{id}")
+    Call<CommonRespon> hapusPenguji(@Path("id") String id);
 
     @GET("getlistpenguji")
     Call<List<listPenguji>> getListPenguji();

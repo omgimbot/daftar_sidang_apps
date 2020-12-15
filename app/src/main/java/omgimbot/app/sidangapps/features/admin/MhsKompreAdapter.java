@@ -26,12 +26,14 @@ public class MhsKompreAdapter extends RecyclerView.Adapter<MhsKompreAdapter.View
     Activity context;
     AlertDialog.Builder dialogBuilder;
     AlertDialog alertDialog;
+    String nama;
 
     public interface onSelected {
         //        void onDetailData(List<KebutuhanSaprotan> kebutuhanSaprotans, List<BiayaTanam> biayaTanams, List<JadwalUsahaTani> jadwalUsahaTanis);
 //        void onSubmit(daftarModel data, String status);
 //        void onTolak(daftarModel data, String status);
 //        void onDownload(daftarModel data);
+        void onClickPilihPenguji(daftarModel data);
     }
 
     public MhsKompreAdapter(List<daftarModel> data, Activity context, onSelected listener) {
@@ -54,6 +56,10 @@ public class MhsKompreAdapter extends RecyclerView.Adapter<MhsKompreAdapter.View
         holder.mNama.setText(data.getNama());
         holder.mNim.setText(data.getNim());
         holder.mCount.setText(String.valueOf(position + 1));
+        String namina;
+        nama = data.getNama();
+
+        holder.mPilihPenguji.setOnClickListener(View->listener.onClickPilihPenguji(data));
 
     }
 
@@ -68,14 +74,14 @@ public class MhsKompreAdapter extends RecyclerView.Adapter<MhsKompreAdapter.View
 
     class ViewHolder extends RecyclerView.ViewHolder {
         TextView mNama, mNim, mCount;
-        Button mDetail;
+        Button mPilihPenguji;
 
         ViewHolder(View view) {
             super(view);
             mCount = view.findViewById(R.id.mCount);
             mNama = view.findViewById(R.id.mNama);
             mNim = view.findViewById(R.id.mNim);
-            mDetail= view.findViewById(R.id.mDetail);
+            mPilihPenguji= view.findViewById(R.id.mPilihPenguji);
 
         }
 

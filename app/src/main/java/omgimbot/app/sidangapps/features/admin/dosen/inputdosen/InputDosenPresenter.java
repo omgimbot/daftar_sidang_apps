@@ -18,9 +18,11 @@ import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
 import omgimbot.app.sidangapps.features.admin.dosen.model.mk;
 import omgimbot.app.sidangapps.network.NetworkService;
 import omgimbot.app.sidangapps.network.RestService;
+import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
+import retrofit2.http.Path;
 
 public class InputDosenPresenter {
     final IInDosView view;
@@ -39,7 +41,7 @@ public class InputDosenPresenter {
                     public void onResponse(retrofit2.Call<CommonRespon> call, Response<CommonRespon> response) {
                         view.hideLoadingIndicator();
                         if (response.body().getSuccess())
-                            view.onSubmitSuccess();
+                            view.onSubmitSuccess(response.body());
                         else {
                             view.onSubmitFailed(response.body().getmRm());
                         }
@@ -53,6 +55,50 @@ public class InputDosenPresenter {
                 });
     }
 
+    public void updatePenguji(String id, dosenPenguji dosenPengujiModel) {
+        view.showLoadingIndicator();
+        restService.create(NetworkService.class).updatePenguji( id, dosenPengujiModel)
+                .enqueue(new Callback<CommonRespon>() {
+                    @Override
+                    public void onResponse(Call<CommonRespon> call, Response<CommonRespon> response) {
+                        view.hideLoadingIndicator();
+                        if (response.body().getSuccess())
+                            view.onSubmitSuccess(response.body());
+                        else {
+                            view.onSubmitFailed(response.body().getmRm());
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<CommonRespon> call, Throwable t) {
+                        view.hideLoadingIndicator();
+                        view.onNetworkError(t.getLocalizedMessage());
+                    }
+                });
+    }
+
+    public void hapusPenguji( String id) {
+        view.showLoadingIndicator();
+        restService.create(NetworkService.class).hapusPenguji(id)
+                .enqueue(new Callback<CommonRespon>() {
+                    @Override
+                    public void onResponse(Call<CommonRespon> call, Response<CommonRespon> response) {
+                        view.hideLoadingIndicator();
+                        if (response.body().getSuccess())
+                            view.onDeleteSuccess(response.body());
+                        else {
+                            view.onDeleteFailed(response.body().getmRm());
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<CommonRespon> call, Throwable t) {
+                        view.hideLoadingIndicator();
+                        view.onNetworkError(t.getLocalizedMessage());
+                    }
+                });
+    }
+
     public void getListMk() {
         view.showLoadingIndicator();
         restService.create(NetworkService.class).getListMk()
@@ -60,7 +106,7 @@ public class InputDosenPresenter {
                     @Override
                     public void onResponse(retrofit2.Call<List<listMk>> call, Response<List<listMk>> response) {
                         view.hideLoadingIndicator();
-                        Log.d("respon" , new Gson().toJson(response.body()));
+                        Log.d("list mk" , new Gson().toJson(response.body()));
                         view.onDataReady(response.body());
 
                     }
@@ -81,7 +127,7 @@ public class InputDosenPresenter {
                     @Override
                     public void onResponse(retrofit2.Call<List<listPenguji>> call, Response<List<listPenguji>> response) {
                         view.hideLoadingIndicator();
-                        Log.d("respon" , new Gson().toJson(response.body()));
+                        Log.d("list penguji" , new Gson().toJson(response.body()));
                         view.onGetListDosen(response.body());
 
                     }

@@ -2062,6 +2062,8 @@ id layoutMK
 id layoutNIDN
 id layoutNPM
 id layoutProdi
+id layoutSubmit
+id layoutUpdate
 id left
 id line1
 id line3
@@ -2070,6 +2072,7 @@ id list_item
 id loading
 id mAlamat
 id mBtnRegis
+id mCancel
 id mCardJudul
 id mCardMunaqosah
 id mCardPengumuman
@@ -2077,11 +2080,11 @@ id mCardSempro
 id mCardkompre
 id mChosefile
 id mCount
-id mDetail
 id mDownloadFile
 id mEdit
 id mFakultas
 id mFile
+id mHapus
 id mJenis
 id mJudul
 id mListDosen
@@ -2099,6 +2102,7 @@ id mNidn
 id mNim
 id mNpm
 id mPassword
+id mPilihPenguji
 id mPilihPengujimk1
 id mPilihPengujimk2
 id mPilihPengujimk3
@@ -2112,6 +2116,7 @@ id mStatus
 id mSubmit
 id mTime
 id mTolak
+id mUpdate
 id mUsername
 id mainMenu
 id mainView
@@ -2120,7 +2125,6 @@ id mask_right
 id masked
 id media_actions
 id message
-id mhapus
 id middle
 id mini
 id month_grid

@@ -37,6 +37,7 @@ import omgimbot.app.sidangapps.Utils.GsonHelper;
 import omgimbot.app.sidangapps.features.admin.MhsKompreAdapter;
 import omgimbot.app.sidangapps.features.admin.MhsKomprePresenter;
 import omgimbot.app.sidangapps.features.admin.dashboard.DashboardAdminActivity;
+import omgimbot.app.sidangapps.features.admin.mhs.pilihpenguji.PilihPengujiMhsActivity;
 import omgimbot.app.sidangapps.features.auth.login.model.LoginResponse;
 import omgimbot.app.sidangapps.features.dosen.PengajuanAdapter;
 import omgimbot.app.sidangapps.features.dosen.PengajuanPresenter;
@@ -56,13 +57,15 @@ public class MahasiswaAdminActivity extends AppCompatActivity implements IMhsAdm
     String key = "kompre" ;
     daftarModel models;
     File myFile;
-    String path, path2, dosen, statuss;
+    String path, path2, dosen, statuss, namaMhs;
     Uri uri;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mahasiswa_admin);
+
         ButterKnife.bind(this);
         presenter = new MhsKomprePresenter(this);
         setSupportActionBar(mToolbar);
@@ -180,5 +183,14 @@ public class MahasiswaAdminActivity extends AppCompatActivity implements IMhsAdm
     @Override
     public void onAccSuccess(CommonRespon result) {
         SweetDialogs.commonSuccessWithIntent(this , "" , string -> this.refresh());
+    }
+
+    @Override
+    public void onClickPilihPenguji(daftarModel data) {
+        Log.d("Namanya" , data.getNama());
+        Intent a = new Intent(MahasiswaAdminActivity.this, PilihPengujiMhsActivity.class);
+        a.putExtra("nama", data.getNama()) ;
+        startActivity(a);
+        finish();
     }
 }

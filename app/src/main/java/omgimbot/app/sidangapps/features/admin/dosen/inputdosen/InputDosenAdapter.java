@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -25,17 +26,22 @@ public class InputDosenAdapter extends RecyclerView.Adapter<InputDosenAdapter.Vi
     AlertDialog.Builder dialogBuilder;
     AlertDialog alertDialog;
 
-    public interface onSelected {
+    public interface onSelected  {
         //        void onDetailData(List<KebutuhanSaprotan> kebutuhanSaprotans, List<BiayaTanam> biayaTanams, List<JadwalUsahaTani> jadwalUsahaTanis);
 //        void onSubmit(daftarModel data, String status);
 //        void onTolak(daftarModel data, String status);
 //        void onDownload(daftarModel data);
+
+        void onDelete(listPenguji data);
+        void onEditPenguji(listPenguji data);
     }
 
     public InputDosenAdapter(List<listPenguji> data, Activity context, InputDosenAdapter.onSelected listener) {
         this.ruts = data;
         this.context = context;
         this.listener = listener;
+
+
     }
 
     @Override
@@ -47,11 +53,14 @@ public class InputDosenAdapter extends RecyclerView.Adapter<InputDosenAdapter.Vi
 
     @SuppressLint("NewApi")
     @Override
-    public void onBindViewHolder(final InputDosenAdapter.ViewHolder holder, final int position) {
+    public void onBindViewHolder(final ViewHolder holder, final int position) {
         final listPenguji data = ruts.get(position);
         holder.mNamaDosen.setText(data.getNama());
         holder.mNamaMk.setText(data.mk.getNamaMk());
         holder.mCount.setText(String.valueOf(position + 1));
+
+        holder.mHapus.setOnClickListener(View -> listener.onDelete(data));
+        holder.mEdit.setOnClickListener(View -> listener.onEditPenguji(data));
 
     }
 
@@ -74,7 +83,7 @@ public class InputDosenAdapter extends RecyclerView.Adapter<InputDosenAdapter.Vi
             mNamaDosen = view.findViewById(R.id.mNamaDosen);
             mNamaMk = view.findViewById(R.id.mNamaMk);
             mEdit = view.findViewById(R.id.mEdit);
-            mHapus = view.findViewById(R.id.mhapus);
+            mHapus = view.findViewById(R.id.mHapus);
 
         }
 

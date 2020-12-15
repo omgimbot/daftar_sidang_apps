@@ -3,6 +3,8 @@ package omgimbot.app.sidangapps.features.admin.dosen.model;
 import com.google.gson.annotations.SerializedName;
 
 public class listPenguji {
+    @SerializedName("_id")
+    private String _id;
     @SerializedName("nama")
     private String nama;
     @SerializedName("nim")
@@ -12,13 +14,9 @@ public class listPenguji {
     @SerializedName("mk")
     public mk mk;
 
-    public omgimbot.app.sidangapps.features.admin.dosen.model.mk getMk() {
-        return mk;
-    }
+    public String get_id() { return _id; }
 
-    public void setMk(omgimbot.app.sidangapps.features.admin.dosen.model.mk mk) {
-        this.mk = mk;
-    }
+    public void set_id(String _id) { this._id = _id; }
 
     public String getNama() {
         return nama;
@@ -42,6 +40,14 @@ public class listPenguji {
 
     public void setKodeMk(String kodeMk) {
         this.kodeMk = kodeMk;
+    }
+
+    public omgimbot.app.sidangapps.features.admin.dosen.model.mk getMk() {
+        return mk;
+    }
+
+    public void setMk(omgimbot.app.sidangapps.features.admin.dosen.model.mk mk) {
+        this.mk = mk;
     }
 
 }
