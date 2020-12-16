@@ -116,6 +116,7 @@
                                     android:weightSum="6">
 
                                     <LinearLayout
+                                        android:visibility="gone"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:layout_marginLeft="10dp"
@@ -151,7 +152,7 @@
                                     </LinearLayout>
 
                                     <LinearLayout
-                                        android:layout_width="match_parent"
+                                        android:layout_width="109dp"
                                         android:layout_height="match_parent"
                                         android:layout_marginLeft="10dp"
                                         android:layout_weight="1"
@@ -253,6 +254,41 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginTop="3dp"
                                             android:text="Munaqosah"
+                                            android:textColor="#999C9E" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical"
+                                        android:padding="8dp">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/mCardTracer"
+                                            android:layout_width="95dp"
+                                            android:layout_height="75dp"
+                                            app:cardBackgroundColor="@color/white"
+                                            app:cardCornerRadius="5dp"
+                                            app:cardElevation="2dp"
+                                            app:cardUseCompatPadding="true"
+                                            app:contentPadding="12dp">
+
+                                            <ImageView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                app:srcCompat="@drawable/ic_judul" />
+
+                                        </androidx.cardview.widget.CardView>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="3dp"
+                                            android:text="Tracer Studi"
                                             android:textColor="#999C9E" />
 
                                     </LinearLayout>

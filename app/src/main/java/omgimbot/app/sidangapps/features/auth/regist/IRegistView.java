@@ -2,14 +2,14 @@ package omgimbot.app.sidangapps.features.auth.regist;
 
 import java.util.List;
 
-import omgimbot.app.sidangapps.features.auth.login.model.Users;
+import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
 
 public interface IRegistView {
     void onRegistSuccess();
 
     void onRegistFailed(String rm);
 
-    void onDataReady(List<Users> model);
+    void onDataReady(List<listPenguji> result);
 
     void onRegist();
 

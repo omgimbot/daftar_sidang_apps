@@ -111,7 +111,7 @@ public class MunaqosahMhsActivity extends AppCompatActivity implements IJudulMhs
         mFakultas.setEnabled(false);
         mProdi.setEnabled(false);
         mFile.setEnabled(false);
-        presenter.cekJudul(nim, "munaqosah");
+//        presenter.cekJudul(nim, "munaqosah");
 
     }
 

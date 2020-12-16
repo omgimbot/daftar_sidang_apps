@@ -52,7 +52,17 @@
                             android:layout_marginBottom="5dp"
                             android:text="@string/mk1"
                             android:textColor="@color/gray"
-                            android:textSize="12sp" />
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/mMk1"
+                            android:text="penguji : -"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -107,6 +117,16 @@
                             android:textColor="@color/gray"
                             android:textSize="12sp" />
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/mMk2"
+                            android:text="penguji : -"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"/>
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
@@ -159,6 +179,16 @@
                             android:text="@string/mk3"
                             android:textColor="@color/gray"
                             android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/mMk3"
+                            android:text="penguji : -"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -213,6 +243,16 @@
                             android:textColor="@color/gray"
                             android:textSize="12sp" />
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/mMk4"
+                            android:text="penguji : -"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"/>
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
@@ -266,6 +306,16 @@
                             android:textColor="@color/gray"
                             android:textSize="12sp" />
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/mMk5"
+                            android:text="penguji : -"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"/>
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
@@ -318,6 +368,16 @@
                             android:text="@string/mk6"
                             android:textColor="@color/gray"
                             android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/mMk6"
+                            android:text="penguji : -"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"

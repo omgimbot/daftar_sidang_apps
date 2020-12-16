@@ -35,6 +35,7 @@ import omgimbot.app.sidangapps.features.dosen.judul.JudulDosenActivity;
 import omgimbot.app.sidangapps.features.dosen.kompre.KompreDosenActivity;
 import omgimbot.app.sidangapps.features.dosen.munaqosah.MunaqosahDosenActivity;
 import omgimbot.app.sidangapps.features.dosen.sempro.SemproDosenActivity;
+import omgimbot.app.sidangapps.features.dosen.tracer.TracerStudiDosenActivity;
 import omgimbot.app.sidangapps.features.mhs.judul.JudulMhsActivity;
 import omgimbot.app.sidangapps.features.webview.PortalInformasiActivity;
 import omgimbot.app.sidangapps.ui.DrawerHeader;
@@ -50,6 +51,9 @@ public class DashboardDosenActivity extends AppCompatActivity {
     @BindView(R.id.toolbar)
     Toolbar toolbarMain;
 
+
+    @BindView(R.id.mCardTracer)
+    CardView mCardTracer;
     @BindView(R.id.mCardJudul)
     CardView mCardJudul;
     private DrawerLayout drawer;
@@ -191,6 +195,12 @@ public class DashboardDosenActivity extends AppCompatActivity {
     @OnClick(R.id.mCardkompre)
     void kompre() {
         startActivity(new Intent(this , KompreDosenActivity.class));
+        finish();
+    }
+
+    @OnClick(R.id.mCardTracer)
+    void goToTracer() {
+        startActivity(new Intent(this , TracerStudiDosenActivity.class));
         finish();
     }
 

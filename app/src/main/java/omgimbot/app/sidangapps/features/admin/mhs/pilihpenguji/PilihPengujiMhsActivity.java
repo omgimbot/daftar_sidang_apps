@@ -17,6 +17,7 @@ import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.ontbee.legacyforks.cn.pedant.SweetAlert.SweetAlertDialog;
@@ -34,13 +35,18 @@ import omgimbot.app.sidangapps.Utils.CommonRespon;
 import omgimbot.app.sidangapps.Utils.LinkedHashMapAdapter;
 import omgimbot.app.sidangapps.features.admin.MhsKompreAdapter;
 import omgimbot.app.sidangapps.features.admin.MhsKomprePresenter;
+import omgimbot.app.sidangapps.features.admin.dosen.model.dosenPenguji;
 import omgimbot.app.sidangapps.features.admin.dosen.model.listMk;
 import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
 import omgimbot.app.sidangapps.features.admin.mhs.IMhsAdminView;
 import omgimbot.app.sidangapps.features.admin.mhs.MahasiswaAdminActivity;
+import omgimbot.app.sidangapps.features.admin.mhs.model.ListPengujiMhs;
+import omgimbot.app.sidangapps.features.admin.mhs.model.MPengujiMhs;
 import omgimbot.app.sidangapps.features.mhs.model.daftarModel;
+import omgimbot.app.sidangapps.ui.SweetDialogs;
+import omgimbot.app.sidangapps.ui.TopSnakbar;
 
-public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilihPengujiView, AdapterView.OnItemSelectedListener, View.OnClickListener {
+public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilihPengujiView, AdapterView.OnItemSelectedListener {
 
     @BindView(R.id.toolbar_default_in)
     Toolbar mToolbar;
@@ -59,12 +65,24 @@ public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilih
     @BindView(R.id.mSubmit)
     Button mSubmit;
 
+    @BindView(R.id.mMk1)
+    TextView mMk1;
+    @BindView(R.id.mMk2)
+    TextView mMk2;
+    @BindView(R.id.mMk3)
+    TextView mMk3;
+    @BindView(R.id.mMk4)
+    TextView mMk4;
+    @BindView(R.id.mMk5)
+    TextView mMk5;
+    @BindView(R.id.mMk6)
+    TextView mMk6;
 
     SweetAlertDialog sweetAlertDialog;
     public MhsKompreAdapter adapter;
     public PilihPengujiPresenter presenter;
 
-    String namaMhs , nidn1 ,nidn2 , nidn3,nidn4,nidn5,nidn6;
+    String namaMhs, nimMhs, nidn1 ,nidn2 , nidn3,nidn4,nidn5,nidn6;
     private LinkedHashMap<String, String>  listdosen1,listdosen2,listdosen3,listdosen4,listdosen5,listdosen6;
     private LinkedHashMapAdapter<String, String> adapterDosen1,adapterDosen2,adapterDosen3,adapterDosen4,adapterDosen5,adapterDosen6;
 
@@ -78,6 +96,7 @@ public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilih
 
         if (extras != null) {
             namaMhs = extras.getString("nama");
+            nimMhs = extras.getString("nim");
             // and get whatever type user account id is
         }
         presenter = new PilihPengujiPresenter(this);
@@ -92,6 +111,7 @@ public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilih
                 WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
         this.initView();
         presenter.getListPenguji();
+        presenter.getListPengujiMhs(nimMhs);
     }
 
     @Override
@@ -100,7 +120,7 @@ public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilih
         sweetAlertDialog.setTitleText(App.getApplication().getString(R.string.loading));
         sweetAlertDialog.setCancelable(false);
 
-        mSubmit.setOnClickListener(this);
+        mSubmit.setOnClickListener(view -> onSubmit());
     }
 
 
@@ -176,12 +196,13 @@ public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilih
         mListDosenmk4.setAdapter(adapterDosen4);
         mListDosenmk5.setAdapter(adapterDosen5);
         mListDosenmk6.setAdapter(adapterDosen6);
+
         mListDosenmk1.setOnItemSelectedListener(this);
-        mListDosenmk1.setOnItemSelectedListener(this);
-        mListDosenmk1.setOnItemSelectedListener(this);
-        mListDosenmk1.setOnItemSelectedListener(this);
-        mListDosenmk1.setOnItemSelectedListener(this);
-        mListDosenmk1.setOnItemSelectedListener(this);
+        mListDosenmk2.setOnItemSelectedListener(this);
+        mListDosenmk3.setOnItemSelectedListener(this);
+        mListDosenmk4.setOnItemSelectedListener(this);
+        mListDosenmk5.setOnItemSelectedListener(this);
+        mListDosenmk6.setOnItemSelectedListener(this);
 
     }
 
@@ -222,7 +243,8 @@ public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilih
 
     @Override
     public void onNetworkError(String cause) {
-
+        Log.d("Error", cause);
+        SweetDialogs.endpointError(this);
     }
 
     @Override
@@ -233,16 +255,55 @@ public class PilihPengujiMhsActivity extends AppCompatActivity implements IPilih
     }
 
     @Override
+    public void onSubmit() {
+        String nama, nim;
+        nama = namaMhs;
+        nim = nimMhs;
+
+
+
+        MPengujiMhs model = new MPengujiMhs();
+        model.setNamaMhs(nama);
+        model.setNim(nim);
+        model.setMk1(nidn1);
+        model.setMk2(nidn2);
+        model.setMk3(nidn3);
+        model.setMk4(nidn4);
+        model.setMk5(nidn5);
+        model.setMk6(nidn6);
+        presenter.inputPengujiMhs(model);
+    }
+
+    @Override
+    public void onSubmitSuccess(CommonRespon result) {
+        SweetDialogs.commonSuccessWithIntent(this , "" , string -> this.goToDashboard());
+    }
+
+    @Override
+    public void onSubmitFailed(String rm) {
+        SweetDialogs.commonError(this,rm , false);
+    }
+
+    @Override
+    public void onGetlistPenguji(List<ListPengujiMhs> result) {
+        Log.d("get list penguji", new Gson().toJson(result));
+        String penguji = "Penguji : ";
+        for (ListPengujiMhs data : result) {
+            mMk1.setText(penguji + data.Mk1.getNama());
+            mMk2.setText(penguji + data.Mk2.getNama());
+            mMk3.setText(penguji + data.Mk3.getNama());
+            mMk4.setText(penguji + data.Mk4.getNama());
+            mMk5.setText(penguji + data.Mk5.getNama());
+            mMk6.setText(penguji + data.Mk6.getNama());
+        }
+
+    }
+
+    @Override
     public void onBackPressed() {
         // ...
 
         this.goToDashboard();
         super.onBackPressed();
-    }
-
-    @Override
-    public void onClick(View v) {
-        System.out.println(nidn1);
-
     }
 }

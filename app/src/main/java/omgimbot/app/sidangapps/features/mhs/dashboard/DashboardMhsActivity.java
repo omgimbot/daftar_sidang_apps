@@ -31,6 +31,7 @@ import butterknife.OnClick;
 import omgimbot.app.sidangapps.R;
 import omgimbot.app.sidangapps.features.AdapterSliderBanner;
 import omgimbot.app.sidangapps.features.ModelSliderBanner;
+import omgimbot.app.sidangapps.features.admin.mhs.tracerStudi.TracerStudiActivity;
 import omgimbot.app.sidangapps.features.dosen.dashboard.DashboardDosenActivity;
 import omgimbot.app.sidangapps.features.mhs.judul.JudulMhsActivity;
 import omgimbot.app.sidangapps.features.mhs.kompre.KompreMhsActivity;
@@ -50,6 +51,8 @@ public class DashboardMhsActivity extends AppCompatActivity {
     ImageButton mainMenuDashboard;
     @BindView(R.id.toolbar)
     Toolbar toolbarMain;
+    @BindView(R.id.mCardTracer)
+    CardView mCardTracer;
     @BindView(R.id.mCardJudul)
     CardView mCardJudul;
     @BindView(R.id.mCardSempro)
@@ -203,6 +206,12 @@ public class DashboardMhsActivity extends AppCompatActivity {
     @OnClick(R.id.mCardPengumuman)
     void pengumuman() {
         startActivity(new Intent(this , PengumumanActivity.class));
+        finish();
+    }
+
+    @OnClick(R.id.mCardTracer)
+    void goToTracer() {
+        startActivity(new Intent(this , TracerStudiActivity.class));
         finish();
     }
 

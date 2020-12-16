@@ -8,8 +8,12 @@ import omgimbot.app.sidangapps.Utils.CommonRespon;
 import omgimbot.app.sidangapps.features.admin.dosen.model.dosenPenguji;
 import omgimbot.app.sidangapps.features.admin.dosen.model.listMk;
 import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
+import omgimbot.app.sidangapps.features.admin.mhs.model.ListPengujiMhs;
+import omgimbot.app.sidangapps.features.admin.mhs.model.MPengujiMhs;
+import omgimbot.app.sidangapps.features.admin.mhs.tracerStudi.model.TracerStudi;
 import omgimbot.app.sidangapps.features.auth.login.model.LoginResponse;
 import omgimbot.app.sidangapps.features.auth.login.model.Users;
+import omgimbot.app.sidangapps.features.dosen.tracer.tracerdetail.model.DetailTracerStudi;
 import omgimbot.app.sidangapps.features.mhs.model.daftarModel;
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -34,11 +38,26 @@ public interface NetworkService {
     @POST("inputPenguji")
     Call<CommonRespon> inputPenguji(@Body dosenPenguji dosenPengujiModel);
 
+    @POST("tracerStudy")
+    Call<CommonRespon> inputTracerStudy(@Body TracerStudi TracerStudiModel);
+
+    @GET("listTracer")
+    Call<List<TracerStudi>> getListTracer();
+
+    @GET("listTracerByNim/{nim}")
+    Call<DetailTracerStudi> getTracerByNim(@Path("nim") String nim);
+
+    @POST("inputPengujiMhs")
+    Call<CommonRespon> inputPengujiMhs(@Body MPengujiMhs MPengujiModel);
+
     @PUT("updatePenguji/{id}")
     Call<CommonRespon> updatePenguji(@Path("id") String id, @Body dosenPenguji dosenPengujiModel);
 
     @DELETE("hapuspenguji/{id}")
     Call<CommonRespon> hapusPenguji(@Path("id") String id);
+
+    @GET("getListPengujiMhs/{nim}")
+    Call<List<ListPengujiMhs>> getListPengujiMhs(@Path("nim") String nim);
 
     @GET("getlistpenguji")
     Call<List<listPenguji>> getListPenguji();

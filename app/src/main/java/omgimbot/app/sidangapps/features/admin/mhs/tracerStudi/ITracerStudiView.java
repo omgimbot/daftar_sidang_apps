@@ -1,23 +1,17 @@
-package omgimbot.app.sidangapps.features.admin.mhs.pilihpenguji;
+package omgimbot.app.sidangapps.features.admin.mhs.tracerStudi;
 
-import android.app.Activity;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import omgimbot.app.sidangapps.Utils.CommonRespon;
 import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
 import omgimbot.app.sidangapps.features.admin.mhs.model.ListPengujiMhs;
-import omgimbot.app.sidangapps.features.mhs.model.daftarModel;
 
-public interface IPilihPengujiView {
+public interface ITracerStudiView {
     void initView();
 
     void showLoadingIndicator();
 
     void hideLoadingIndicator();
-
-    void onDataReady(List<listPenguji> result);
 
     void onNetworkError(String cause);
 
@@ -28,6 +22,4 @@ public interface IPilihPengujiView {
     void onSubmitSuccess(CommonRespon result);
 
     void onSubmitFailed(String rm);
-
-    void onGetlistPenguji(List<ListPengujiMhs> result);
 }

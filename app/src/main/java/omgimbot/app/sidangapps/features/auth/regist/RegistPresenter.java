@@ -12,6 +12,8 @@ import okhttp3.Request;
 import omgimbot.app.sidangapps.App;
 import omgimbot.app.sidangapps.Prefs;
 import omgimbot.app.sidangapps.Utils.CommonRespon;
+import omgimbot.app.sidangapps.features.admin.dosen.model.dosenPenguji;
+import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
 import omgimbot.app.sidangapps.features.auth.login.ILoginView;
 import omgimbot.app.sidangapps.features.auth.login.model.Listdosen;
 import omgimbot.app.sidangapps.features.auth.login.model.LoginResponse;
@@ -55,10 +57,10 @@ public class RegistPresenter {
 
     void getListDosen() {
         view.showLoadingIndicator();
-        restService.create(NetworkService.class).getListDosen()
-                .enqueue(new Callback<List<Users>>() {
+        restService.create(NetworkService.class).getListPenguji()
+                .enqueue(new Callback<List<listPenguji>>() {
                     @Override
-                    public void onResponse(retrofit2.Call<List<Users>> call, Response<List<Users>> response) {
+                    public void onResponse(retrofit2.Call<List<listPenguji>> call, Response<List<listPenguji>> response) {
                         view.hideLoadingIndicator();
                         Log.d("respon" , new Gson().toJson(response.body()));
                         view.onDataReady(response.body());
@@ -66,7 +68,7 @@ public class RegistPresenter {
                     }
 
                     @Override
-                    public void onFailure(retrofit2.Call<List<Users>> call, Throwable t) {
+                    public void onFailure(retrofit2.Call<List<listPenguji>> call, Throwable t) {
                         view.hideLoadingIndicator();
                         view.onNetworkError(t.getLocalizedMessage());
                     }

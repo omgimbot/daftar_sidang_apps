@@ -16,6 +16,8 @@ import omgimbot.app.sidangapps.features.admin.dosen.inputdosen.IInDosView;
 import omgimbot.app.sidangapps.features.admin.dosen.model.dosenPenguji;
 import omgimbot.app.sidangapps.features.admin.dosen.model.listMk;
 import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
+import omgimbot.app.sidangapps.features.admin.mhs.model.ListPengujiMhs;
+import omgimbot.app.sidangapps.features.admin.mhs.model.MPengujiMhs;
 import omgimbot.app.sidangapps.network.NetworkService;
 import omgimbot.app.sidangapps.network.RestService;
 import retrofit2.Call;
@@ -33,8 +35,48 @@ public class PilihPengujiPresenter {
     }
 
 
+    public void getListPengujiMhs(String nim) {
+        view.showLoadingIndicator();
+        restService.create(NetworkService.class).getListPengujiMhs(nim)
+                .enqueue(new Callback<List<ListPengujiMhs>>() {
+                    @Override
+                    public void onResponse(Call<List<ListPengujiMhs>> call, Response<List<ListPengujiMhs>> response) {
+                        view.hideLoadingIndicator();
+                        Log.d("list penguji mhs", new Gson().toJson(response.body()));
+                        view.onGetlistPenguji(response.body());
+                    }
+
+                    @Override
+                    public void onFailure(Call<List<ListPengujiMhs>> call, Throwable t) {
+                        view.onNetworkError(t.getLocalizedMessage());
+
+                    }
+                });
+    }
+
+    public void inputPengujiMhs(MPengujiMhs MPengujiModel) {
+        view.showLoadingIndicator();
+        restService.create(NetworkService.class).inputPengujiMhs(MPengujiModel)
+                .enqueue(new Callback<CommonRespon>() {
+                    @Override
+                    public void onResponse(Call<CommonRespon> call, Response<CommonRespon> response) {
+                        view.hideLoadingIndicator();
+                        if (response.body().getSuccess())
+                            view.onSubmitSuccess(response.body());
+                        else {
+                            view.onSubmitFailed(response.body().getmRm());
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<CommonRespon> call, Throwable t) {
+                        view.hideLoadingIndicator();
+                        view.onNetworkError(t.getLocalizedMessage());
+                    }
+                });
+    }
+
     public void getListPenguji() {
-        String data;
         view.showLoadingIndicator();
         restService.create(NetworkService.class).getListPenguji()
                 .enqueue(new Callback<List<listPenguji>>() {

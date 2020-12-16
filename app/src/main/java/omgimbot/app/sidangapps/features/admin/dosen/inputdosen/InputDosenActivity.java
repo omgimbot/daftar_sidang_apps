@@ -211,6 +211,7 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
 
     @Override
     public void onSubmitFailed(String rm) {
+
         SweetDialogs.commonError(this,rm , false);
     }
 

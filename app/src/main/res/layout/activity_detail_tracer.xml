@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppThemeSubs"
+    android:weightSum="3"
+    tools:context=".features.dosen.tracer.tracerdetail.DetailTracerActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_default_in" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="10dp"
+        android:id="@+id/nestedScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/LayoutRegist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/nameHide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nama"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_userz">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mNama"
+                        android:editable="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Nama Lengkap"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutNPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="NIM"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mNpm"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:editable="false"
+                        android:padding="5dp"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="NIM"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tempat Lahir"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mTempatLahir"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Tempat Lahir"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tanggal Lahir"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mTglLahir"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:editable="false"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Tanggal Lahir"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Gender"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Gender"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Suku"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mSuku"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Suku"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/addressHide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/alamat"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_address">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mAlamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Alamat Lengkap"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nomor HP"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mNohp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Nomor HP"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutFakultas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Fakultas"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mFakultas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Fakultas"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layoutProdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Program Studi"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mProdi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Program Studi"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tanggal Masuk"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mTglMasuk"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:editable="false"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Tanggal Masuk"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Prestasi"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mPrestasi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Prestasi"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Judul Skripsi"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mJudulSkripsi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Judul Skripsi"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pembibing I"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mPembibing1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Dosen Pembining I"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pembimbing II"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mPembimbing2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Dosen Pembimbing II"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tanggal Lulus"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mTglLulus"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:editable="false"
+                        android:padding="5dp"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Tanggal Lulus"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="IPK"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mIpk"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="IPK"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Predikat"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mPredikat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Predikat"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pekerjaan Setelah Lulus"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mPekerjaan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Pekerjaan Setelah Lulus"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tanggal Masuk Kerja"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    app:boxStrokeColor="@color/color_default_blue"
+                    app:endIconMode="custom"
+                    app:hintTextColor="@color/color_default_black"
+                    app:startIconDrawable="@drawable/ic_card">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mTglMasukKerja"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:editable="false"
+                        android:padding="5dp"
+                        android:textColor="@color/color_default_black"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Tanggal Masuk Kerja"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

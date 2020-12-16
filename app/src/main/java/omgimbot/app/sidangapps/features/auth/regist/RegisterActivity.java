@@ -3,7 +3,6 @@ package omgimbot.app.sidangapps.features.auth.regist;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,7 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import com.ontbee.legacyforks.cn.pedant.SweetAlert.SweetAlertDialog;
 
@@ -25,8 +23,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import omgimbot.app.sidangapps.R;
 import omgimbot.app.sidangapps.Utils.LinkedHashMapAdapter;
+import omgimbot.app.sidangapps.features.admin.dosen.model.dosenPenguji;
+import omgimbot.app.sidangapps.features.admin.dosen.model.listPenguji;
 import omgimbot.app.sidangapps.features.auth.login.LoginActivity;
-import omgimbot.app.sidangapps.features.auth.login.LoginPresenter;
 import omgimbot.app.sidangapps.features.auth.login.model.Users;
 import omgimbot.app.sidangapps.ui.SweetDialogs;
 
@@ -108,10 +107,10 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
     }
 
     @Override
-    public void onDataReady(List<Users> model){
+    public void onDataReady(List<listPenguji> result){
         listdosen = new LinkedHashMap<String, String>();
-        for (Users user : model) {
-            listdosen.put(user.getUsername(), user.getUsername()+" - "+user.getNama());
+        for (listPenguji data : result) {
+            listdosen.put(data.getNim(), data.getNim()+" - "+data.getNama());
         }
         adapterDosen = new LinkedHashMapAdapter<String, String>(this, android.R.layout.simple_spinner_item, listdosen);
         adapterDosen.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -139,6 +138,7 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
 
                 }
                 break;
+
             case R.id.mFakultas:
 
                 int list = 0 ;

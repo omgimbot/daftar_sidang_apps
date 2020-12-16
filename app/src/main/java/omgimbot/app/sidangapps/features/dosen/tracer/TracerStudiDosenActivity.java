@@ -1,4 +1,4 @@
-package omgimbot.app.sidangapps.features.admin.mhs;
+package omgimbot.app.sidangapps.features.dosen.tracer;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -6,19 +6,16 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Activity;
-import android.app.DownloadManager;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Toast;
+import android.widget.AdapterView;
 
 import com.google.gson.Gson;
 import com.ontbee.legacyforks.cn.pedant.SweetAlert.SweetAlertDialog;
@@ -29,47 +26,32 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import omgimbot.app.sidangapps.App;
-import omgimbot.app.sidangapps.Prefs;
 import omgimbot.app.sidangapps.R;
-import omgimbot.app.sidangapps.Utils.CommonRespon;
-import omgimbot.app.sidangapps.Utils.FileUtils;
-import omgimbot.app.sidangapps.Utils.GsonHelper;
-import omgimbot.app.sidangapps.features.admin.MhsKompreAdapter;
-import omgimbot.app.sidangapps.features.admin.MhsKomprePresenter;
-import omgimbot.app.sidangapps.features.admin.dashboard.DashboardAdminActivity;
-import omgimbot.app.sidangapps.features.admin.mhs.pilihpenguji.PilihPengujiMhsActivity;
-import omgimbot.app.sidangapps.features.auth.login.model.LoginResponse;
-import omgimbot.app.sidangapps.features.dosen.PengajuanAdapter;
-import omgimbot.app.sidangapps.features.dosen.PengajuanPresenter;
+import omgimbot.app.sidangapps.features.admin.mhs.tracerStudi.TracerStudiActivity;
+import omgimbot.app.sidangapps.features.admin.mhs.tracerStudi.model.TracerStudi;
 import omgimbot.app.sidangapps.features.dosen.dashboard.DashboardDosenActivity;
-import omgimbot.app.sidangapps.features.dosen.kompre.KompreDosenActivity;
-import omgimbot.app.sidangapps.features.mhs.model.daftarModel;
+import omgimbot.app.sidangapps.features.dosen.tracer.tracerdetail.DetailTracerActivity;
 import omgimbot.app.sidangapps.ui.SweetDialogs;
 
-public class MahasiswaAdminActivity extends AppCompatActivity implements IMhsAdminView, MhsKompreAdapter.onSelected {
+public class TracerStudiDosenActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, ITracerStudiDosen, TracerStudiDosenAdapter.onSelected {
+
     @BindView(R.id.toolbar_default_in)
     Toolbar mToolbar;
     @BindView(R.id.recycler_view)
     RecyclerView mRecyclerView;
     SweetAlertDialog sweetAlertDialog;
-    public MhsKompreAdapter adapter;
-    public MhsKomprePresenter presenter;
-    String key = "kompre" ;
-    daftarModel models;
-    File myFile;
-    String path, path2, dosen, statuss, namaMhs;
-    Uri uri;
-
+    public TracerStudiDosenAdapter adapter;
+    public TracerStudiDosenPresenter presenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mahasiswa_admin);
+        setContentView(R.layout.activity_tracer_studi_dosen);
 
         ButterKnife.bind(this);
-        presenter = new MhsKomprePresenter(this);
+        presenter = new TracerStudiDosenPresenter(this);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("Mahasiswa Kompre");
+        getSupportActionBar().setTitle("Tracer Study");
         mToolbar.setTitleTextColor(getResources().getColor(R.color.color_default_blue));
         getSupportActionBar().setHomeAsUpIndicator(getResources().getDrawable(R.drawable.ic_back_left));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -78,7 +60,18 @@ public class MahasiswaAdminActivity extends AppCompatActivity implements IMhsAdm
                 WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
                 WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
         this.initView();
-        presenter.getListMhs();
+
+        presenter.getListTracer();
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 
     @Override
@@ -90,6 +83,7 @@ public class MahasiswaAdminActivity extends AppCompatActivity implements IMhsAdm
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(linearLayoutManager);
         mRecyclerView.clearFocus();
+
     }
 
     @Override
@@ -111,9 +105,9 @@ public class MahasiswaAdminActivity extends AppCompatActivity implements IMhsAdm
     }
 
     @Override
-    public void onDataReady(List<daftarModel> result) {
+    public void onDataReady(List<TracerStudi> result) {
         Log.d("data" , new Gson().toJson(result));
-        adapter = new MhsKompreAdapter(result, this,this);
+        adapter = new TracerStudiDosenAdapter(result, this,this);
         mRecyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
     }
@@ -144,14 +138,14 @@ public class MahasiswaAdminActivity extends AppCompatActivity implements IMhsAdm
 
     @Override
     public void goToDashboard() {
-        Intent a = new Intent(this, DashboardAdminActivity.class);
+        Intent a = new Intent(this, DashboardDosenActivity.class);
         startActivity(a);
         finish();
     }
 
     @Override
     public void refresh() {
-        Intent a = new Intent(this, KompreDosenActivity.class);
+        Intent a = new Intent(this, TracerStudiActivity.class);
         startActivity(a);
         finish();
     }
@@ -162,37 +156,17 @@ public class MahasiswaAdminActivity extends AppCompatActivity implements IMhsAdm
 
         this.goToDashboard();
         super.onBackPressed();
-    }
-
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1 && resultCode == RESULT_OK) {
-            uri = data.getData();
-            path = FileUtils.getFileName(this, uri);
-            myFile = new File(path);
-            path2 = FileUtils.getFilePathFromURI(this, uri);
-            presenter.Acc(this, path2, models, myFile, uri, key);
-            Log.d("DATANYA", new Gson().toJson(models));
-        }
-
 
     }
 
     @Override
-    public void onAccSuccess(CommonRespon result) {
-        SweetDialogs.commonSuccessWithIntent(this , "" , string -> this.refresh());
-    }
-
-    @Override
-    public void onClickPilihPenguji(daftarModel data) {
-        Log.d("Namanya" , data.getNama());
-        Log.d("nimnya", data.getNim());
-        Intent a = new Intent(MahasiswaAdminActivity.this, PilihPengujiMhsActivity.class);
+    public void onClickDetail( TracerStudi data ) {
+        Intent a = new Intent(TracerStudiDosenActivity.this, DetailTracerActivity.class);
         a.putExtra("nama", data.getNama()) ;
-        a.putExtra("nim", data.getNim());
+        a.putExtra("nim", data.getNpm());
         startActivity(a);
         finish();
+
+//        System.out.println(data.getNpm());
     }
 }

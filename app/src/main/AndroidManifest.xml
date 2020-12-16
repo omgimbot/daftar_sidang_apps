@@ -18,7 +18,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".features.admin.dosen.inputdosen.InputDosenActivity"></activity>
+        <activity android:name=".features.dosen.tracer.tracerdetail.DetailTracerActivity"></activity>
+        <activity android:name=".features.dosen.tracer.TracerStudiDosenActivity" />
+        <activity android:name=".features.admin.mhs.tracerStudi.TracerStudiActivity" />
+        <activity android:name=".features.admin.dosen.inputdosen.InputDosenActivity" />
         <activity android:name=".features.admin.dosen.listmk.ListMkActivity" />
         <activity android:name=".features.admin.mhs.pilihpenguji.PilihPengujiMhsActivity" />
         <activity android:name=".features.admin.mhs.MahasiswaAdminActivity" />
