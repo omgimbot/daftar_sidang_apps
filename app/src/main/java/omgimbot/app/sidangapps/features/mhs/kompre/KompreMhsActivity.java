@@ -68,7 +68,7 @@ public class KompreMhsActivity extends AppCompatActivity implements IJudulMhsVie
         ButterKnife.bind(this);
         presenter = new JudulMhsPresenter(this);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("Pendaftaran Munaqosah");
+        getSupportActionBar().setTitle("Pendaftaran Kompre");
         mToolbar.setTitleTextColor(getResources().getColor(R.color.color_default_blue));
         getSupportActionBar().setHomeAsUpIndicator(getResources().getDrawable(R.drawable.ic_back_left));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -227,7 +227,7 @@ public class KompreMhsActivity extends AppCompatActivity implements IJudulMhsVie
 
     @Override
     public void goToDashboard() {
-        Intent i = new Intent(this, DashboardMhsActivity.class);
+        Intent i = new Intent(this, SuratTugasMhsActivity.class);
         startActivity(i);
         finish();
     }

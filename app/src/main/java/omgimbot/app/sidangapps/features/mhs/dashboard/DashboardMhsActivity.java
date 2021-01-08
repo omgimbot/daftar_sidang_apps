@@ -35,6 +35,7 @@ import omgimbot.app.sidangapps.features.admin.mhs.tracerStudi.TracerStudiActivit
 import omgimbot.app.sidangapps.features.dosen.dashboard.DashboardDosenActivity;
 import omgimbot.app.sidangapps.features.mhs.judul.JudulMhsActivity;
 import omgimbot.app.sidangapps.features.mhs.kompre.KompreMhsActivity;
+import omgimbot.app.sidangapps.features.mhs.kompre.SuratTugasMhsActivity;
 import omgimbot.app.sidangapps.features.mhs.munaqosah.MunaqosahMhsActivity;
 import omgimbot.app.sidangapps.features.mhs.pengumuman.PengumumanActivity;
 import omgimbot.app.sidangapps.features.mhs.sempro.SemproMhsActivity;
@@ -199,7 +200,7 @@ public class DashboardMhsActivity extends AppCompatActivity {
 
     @OnClick(R.id.mCardkompre)
     void goTokompre() {
-        startActivity(new Intent(this , KompreMhsActivity.class));
+        startActivity(new Intent(this , SuratTugasMhsActivity.class));
         finish();
     }
 

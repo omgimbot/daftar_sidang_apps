@@ -44,6 +44,9 @@ public interface NetworkService {
     @GET("listTracer")
     Call<List<TracerStudi>> getListTracer();
 
+//    @GET("exportpdf")
+//    Call<CommonRespon> exportPdf();
+
     @GET("listTracerByNim/{nim}")
     Call<DetailTracerStudi> getTracerByNim(@Path("nim") String nim);
 

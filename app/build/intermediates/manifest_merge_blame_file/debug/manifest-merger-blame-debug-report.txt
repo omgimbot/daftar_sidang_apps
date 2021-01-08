@@ -6,161 +6,170 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+8-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+9-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.VIBRATE" />
-11-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:5:5-66
-11-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:5:22-63
+11-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:5:22-63
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:6:5-67
-12-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:6:22-64
+12-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:7:5-80
-13-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:7:22-77
+13-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:7:5-80
+13-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:7:22-77
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:8:5-81
-14-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:8:22-78
+14-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:8:5-81
+14-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-15-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:9:5-82
-15-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:9:22-79
+15-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:9:5-82
+15-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:9:22-79
 16
 17    <application
-17-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:11:5-50:19
+17-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:11:5-53:19
 18        android:name="omgimbot.app.sidangapps.App"
-18-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:12:9-28
+18-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:12:9-28
 19        android:allowBackup="true"
-19-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:13:9-35
+19-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:13:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:14:9-43
+22-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:14:9-43
 23        android:label="@string/app_name"
-23-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:15:9-41
+23-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:15:9-41
 24        android:requestLegacyExternalStorage="true"
-24-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:16:9-52
+24-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:16:9-52
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:17:9-54
+25-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:17:9-54
 26        android:supportsRtl="true"
-26-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:18:9-35
+26-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:18:9-35
 27        android:testOnly="true"
 28        android:theme="@style/AppTheme"
-28-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:19:9-40
+28-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:19:9-40
 29        android:usesCleartextTraffic="true" >
-29-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:20:9-44
-30        <activity android:name="omgimbot.app.sidangapps.features.admin.dosen.inputdosen.InputDosenActivity" />
-30-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:21:9-97
-30-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:21:19-85
-31        <activity android:name="omgimbot.app.sidangapps.features.admin.dosen.listmk.ListMkActivity" />
-31-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:22:9-80
-31-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:22:19-77
-32        <activity android:name="omgimbot.app.sidangapps.features.admin.mhs.pilihpenguji.PilihPengujiMhsActivity" />
-32-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:23:9-93
-32-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:23:19-90
-33        <activity android:name="omgimbot.app.sidangapps.features.admin.mhs.MahasiswaAdminActivity" />
-33-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:24:9-79
-33-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:24:19-76
-34        <activity android:name="omgimbot.app.sidangapps.features.admin.dashboard.DashboardAdminActivity" />
-34-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:25:9-85
-34-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:25:19-82
-35        <activity android:name="omgimbot.app.sidangapps.features.webview.PortalInformasiActivity" />
-35-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:26:9-78
-35-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:26:19-75
-36        <activity android:name="omgimbot.app.sidangapps.features.mhs.pengumuman.PengumumanActivity" />
-36-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:27:9-80
-36-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:27:19-77
-37        <activity android:name="omgimbot.app.sidangapps.features.dosen.kompre.KompreDosenActivity" />
-37-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:28:9-79
-37-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:28:19-76
-38        <activity android:name="omgimbot.app.sidangapps.features.dosen.munaqosah.MunaqosahDosenActivity" />
-38-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:29:9-85
-38-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:29:19-82
-39        <activity android:name="omgimbot.app.sidangapps.features.dosen.sempro.SemproDosenActivity" />
-39-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:30:9-79
-39-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:30:19-76
-40        <activity android:name="omgimbot.app.sidangapps.features.mhs.kompre.KompreMhsActivity" />
-40-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:31:9-75
-40-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:31:19-72
-41        <activity android:name="omgimbot.app.sidangapps.features.mhs.munaqosah.MunaqosahMhsActivity" />
-41-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:32:9-81
-41-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:32:19-78
-42        <activity android:name="omgimbot.app.sidangapps.features.mhs.sempro.SemproMhsActivity" />
-42-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:33:9-75
-42-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:33:19-72
-43        <activity android:name="omgimbot.app.sidangapps.features.mhs.judul.JudulMhsActivity" />
-43-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:34:9-73
-43-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:34:19-70
-44        <activity android:name="omgimbot.app.sidangapps.features.dosen.judul.JudulDosenActivity" />
-44-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:35:9-77
-44-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:35:19-74
-45        <activity android:name="omgimbot.app.sidangapps.features.mhs.dashboard.DashboardMhsActivity" />
-45-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:36:9-81
-45-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:36:19-78
-46        <activity android:name="omgimbot.app.sidangapps.features.dosen.dashboard.DashboardDosenActivity" />
-46-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:37:9-85
-46-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:37:19-82
-47        <activity android:name="omgimbot.app.sidangapps.features.auth.regist.RegisterActivity" />
-47-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:38:9-75
-47-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:38:19-72
-48        <activity
-48-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:39:9-49:20
-49            android:name="omgimbot.app.sidangapps.features.auth.login.LoginActivity"
-49-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:40:13-62
-50            android:screenOrientation="portrait"
-50-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:41:13-49
-51            android:theme="@style/AppThemeSubs"
-51-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:42:13-48
-52            android:windowSoftInputMode="adjustResize" >
-52-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:43:13-55
-53            <intent-filter>
-53-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:44:13-48:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:45:17-69
-54-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:45:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:47:17-77
-56-->D:\project\Bram Krisna Danu\android\revisi\p1\daftar_sidang_apps\app\src\main\AndroidManifest.xml:47:27-74
-57            </intent-filter>
-58        </activity>
-59        <activity
-59-->[com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:14:9-17:20
-60            android:name="com.nbsp.materialfilepicker.ui.FilePickerActivity"
-60-->[com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:15:13-77
-61            android:theme="@style/MFP_BaseTheme" >
-61-->[com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:16:13-49
-62        </activity>
-63        <activity
-63-->[com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:12:9-15:56
-64            android:name="com.obsez.android.lib.filechooser.permissions.PermissionActivity"
-64-->[com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:13:13-92
-65            android:label=""
-65-->[com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:14:13-29
-66            android:theme="@style/Theme.Transparent" />
-66-->[com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:15:13-53
-67
-68        <provider
-68-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:12:9-16:44
-69            android:name="net.grandcentrix.tray.provider.TrayContentProvider"
-69-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:13:13-78
-70            android:authorities="omgimbot.app.sidangapps.tray"
-70-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:14:13-56
-71            android:exported="false"
-71-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:15:13-37
-72            android:multiprocess="false" />
-72-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:16:13-41
-73        <provider
-73-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-74            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-74-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-75            android:authorities="omgimbot.app.sidangapps.lifecycle-process"
-75-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-76            android:exported="false"
-76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-77            android:multiprocess="true" />
-77-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-78    </application>
-79
-80</manifest>
+29-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:20:9-44
+30        <activity android:name="omgimbot.app.sidangapps.features.mhs.kompre.SuratTugasMhsActivity" />
+30-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:21:9-88
+30-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:21:19-76
+31        <activity android:name="omgimbot.app.sidangapps.features.dosen.tracer.tracerdetail.DetailTracerActivity" />
+31-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:22:9-93
+31-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:22:19-90
+32        <activity android:name="omgimbot.app.sidangapps.features.dosen.tracer.TracerStudiDosenActivity" />
+32-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:23:9-84
+32-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:23:19-81
+33        <activity android:name="omgimbot.app.sidangapps.features.admin.mhs.tracerStudi.TracerStudiActivity" />
+33-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:24:9-88
+33-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:24:19-85
+34        <activity android:name="omgimbot.app.sidangapps.features.admin.dosen.inputdosen.InputDosenActivity" />
+34-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:25:9-88
+34-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:25:19-85
+35        <activity android:name="omgimbot.app.sidangapps.features.admin.mhs.pilihpenguji.PilihPengujiMhsActivity" />
+35-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:26:9-93
+35-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:26:19-90
+36        <activity android:name="omgimbot.app.sidangapps.features.admin.mhs.MahasiswaAdminActivity" />
+36-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:27:9-79
+36-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:27:19-76
+37        <activity android:name="omgimbot.app.sidangapps.features.admin.dashboard.DashboardAdminActivity" />
+37-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:28:9-85
+37-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:28:19-82
+38        <activity android:name="omgimbot.app.sidangapps.features.webview.PortalInformasiActivity" />
+38-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:29:9-78
+38-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:29:19-75
+39        <activity android:name="omgimbot.app.sidangapps.features.mhs.pengumuman.PengumumanActivity" />
+39-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:30:9-80
+39-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:30:19-77
+40        <activity android:name="omgimbot.app.sidangapps.features.dosen.kompre.KompreDosenActivity" />
+40-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:31:9-79
+40-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:31:19-76
+41        <activity android:name="omgimbot.app.sidangapps.features.dosen.munaqosah.MunaqosahDosenActivity" />
+41-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:32:9-85
+41-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:32:19-82
+42        <activity android:name="omgimbot.app.sidangapps.features.dosen.sempro.SemproDosenActivity" />
+42-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:33:9-79
+42-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:33:19-76
+43        <activity android:name="omgimbot.app.sidangapps.features.mhs.kompre.KompreMhsActivity" />
+43-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:34:9-75
+43-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:34:19-72
+44        <activity android:name="omgimbot.app.sidangapps.features.mhs.munaqosah.MunaqosahMhsActivity" />
+44-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:35:9-81
+44-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:35:19-78
+45        <activity android:name="omgimbot.app.sidangapps.features.mhs.sempro.SemproMhsActivity" />
+45-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:36:9-75
+45-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:36:19-72
+46        <activity android:name="omgimbot.app.sidangapps.features.mhs.judul.JudulMhsActivity" />
+46-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:37:9-73
+46-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:37:19-70
+47        <activity android:name="omgimbot.app.sidangapps.features.dosen.judul.JudulDosenActivity" />
+47-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:38:9-77
+47-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:38:19-74
+48        <activity android:name="omgimbot.app.sidangapps.features.mhs.dashboard.DashboardMhsActivity" />
+48-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:39:9-81
+48-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:39:19-78
+49        <activity android:name="omgimbot.app.sidangapps.features.dosen.dashboard.DashboardDosenActivity" />
+49-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:40:9-85
+49-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:40:19-82
+50        <activity android:name="omgimbot.app.sidangapps.features.auth.regist.RegisterActivity" />
+50-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:41:9-75
+50-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:41:19-72
+51        <activity
+51-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:42:9-52:20
+52            android:name="omgimbot.app.sidangapps.features.auth.login.LoginActivity"
+52-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:43:13-62
+53            android:screenOrientation="portrait"
+53-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:44:13-49
+54            android:theme="@style/AppThemeSubs"
+54-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:45:13-48
+55            android:windowSoftInputMode="adjustResize" >
+55-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:46:13-55
+56            <intent-filter>
+56-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:47:13-51:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:48:17-69
+57-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:48:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:50:17-77
+59-->D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:50:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:14:9-17:20
+63            android:name="com.nbsp.materialfilepicker.ui.FilePickerActivity"
+63-->[com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:15:13-77
+64            android:theme="@style/MFP_BaseTheme" >
+64-->[com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:16:13-49
+65        </activity>
+66        <activity
+66-->[com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:12:9-15:56
+67            android:name="com.obsez.android.lib.filechooser.permissions.PermissionActivity"
+67-->[com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:13:13-92
+68            android:label=""
+68-->[com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:14:13-29
+69            android:theme="@style/Theme.Transparent" />
+69-->[com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:15:13-53
+70
+71        <provider
+71-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:12:9-16:44
+72            android:name="net.grandcentrix.tray.provider.TrayContentProvider"
+72-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:13:13-78
+73            android:authorities="omgimbot.app.sidangapps.tray"
+73-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:14:13-56
+74            android:exported="false"
+74-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:15:13-37
+75            android:multiprocess="false" />
+75-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:16:13-41
+76        <provider
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+77            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+78            android:authorities="omgimbot.app.sidangapps.lifecycle-process"
+78-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+79            android:exported="false"
+79-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+80            android:multiprocess="true" />
+80-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+81    </application>
+82
+83</manifest>

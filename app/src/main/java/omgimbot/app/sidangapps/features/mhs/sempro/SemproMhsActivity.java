@@ -114,7 +114,7 @@ public class SemproMhsActivity extends AppCompatActivity implements IJudulMhsVie
         mFakultas.setEnabled(false);
         mProdi.setEnabled(false);
         mFile.setEnabled(false);
-        presenter.cekJudul(nim, "sempro");
+//        presenter.cekJudul(nim, "sempro");
 
     }
 

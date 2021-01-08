@@ -6,16 +6,20 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Activity;
+import android.app.DownloadManager;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
+import android.widget.Button;
 
 import com.google.gson.Gson;
 import com.ontbee.legacyforks.cn.pedant.SweetAlert.SweetAlertDialog;
@@ -25,6 +29,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import omgimbot.app.sidangapps.App;
 import omgimbot.app.sidangapps.R;
 import omgimbot.app.sidangapps.features.admin.mhs.tracerStudi.TracerStudiActivity;
@@ -39,6 +44,9 @@ public class TracerStudiDosenActivity extends AppCompatActivity implements Adapt
     Toolbar mToolbar;
     @BindView(R.id.recycler_view)
     RecyclerView mRecyclerView;
+    @BindView(R.id.mPrint)
+    Button mPrint;
+
     SweetAlertDialog sweetAlertDialog;
     public TracerStudiDosenAdapter adapter;
     public TracerStudiDosenPresenter presenter;
@@ -157,6 +165,29 @@ public class TracerStudiDosenActivity extends AppCompatActivity implements Adapt
         this.goToDashboard();
         super.onBackPressed();
 
+    }
+
+    @OnClick(R.id.mPrint)
+    void  generateExcel() {
+        DownloadManager downloadmanager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+        String uriDownload = App.getApplication().getString(R.string.end_point)+"exportexcel";
+        Log.d("urlnya" , uriDownload);
+        Uri uri = Uri.parse(uriDownload);
+
+        DownloadManager.Request request = new DownloadManager.Request(uri);
+        request.setTitle("Tracer-Study");
+        request.setDescription("Downloading");
+        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+        request.setVisibleInDownloadsUi(false);
+        File wallpaperDirectory = new File(
+                Environment.getExternalStorageDirectory() + "sidangApps/");
+        // have the object build the directory structure, if needed.
+        if (!wallpaperDirectory.exists()) {
+            wallpaperDirectory.mkdirs();
+        }
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"Tracer-Study.xlsx");
+
+        downloadmanager.enqueue(request);
     }
 
     @Override

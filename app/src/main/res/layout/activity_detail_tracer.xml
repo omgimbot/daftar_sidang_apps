@@ -15,6 +15,7 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
         android:id="@+id/nestedScroll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,20 +47,16 @@
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/mNama"
-                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:clickable="false"
+                        android:cursorVisible="false"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="text"
                         android:padding="5dp"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Nama Lengkap"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -90,17 +87,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="number"
-                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:clickable="false"
+                        android:cursorVisible="false"
                         android:padding="5dp"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="NIM"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -127,16 +120,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:clickable="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tempat Lahir"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -163,19 +152,14 @@
                         android:id="@+id/mTglLahir"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:inputType="text"
                         android:padding="5dp"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tanggal Lahir"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
-
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -205,16 +189,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Gender"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -242,16 +222,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Suku"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -285,16 +261,12 @@
                         android:layout_height="match_parent"
                         android:inputType="text"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Alamat Lengkap"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -323,16 +295,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:clickable="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Nomor HP"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -363,16 +331,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:clickable="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Fakultas"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -405,16 +369,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Program Studi"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -444,19 +404,14 @@
                         android:id="@+id/mTglMasuk"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:inputType="text"
                         android:padding="5dp"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tanggal Masuk"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
-
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -485,17 +440,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Prestasi"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
-
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -523,16 +473,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Judul Skripsi"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -560,16 +506,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Dosen Pembining I"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -597,16 +539,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Dosen Pembimbing II"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -637,18 +575,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="text"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:padding="5dp"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tanggal Lulus"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
-
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -677,16 +610,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="IPK"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -714,16 +643,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Predikat"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -751,16 +676,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="5dp"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Pekerjaan Setelah Lulus"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -791,18 +712,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="text"
-                        android:editable="false"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:cursorVisible="false"
                         android:padding="5dp"
                         android:textColor="@color/color_default_black"
                         android:textSize="15sp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tanggal Masuk Kerja"
-                        android:textColor="@color/gray"
-                        android:textSize="12sp" />
-
 
                 </com.google.android.material.textfield.TextInputLayout>
 

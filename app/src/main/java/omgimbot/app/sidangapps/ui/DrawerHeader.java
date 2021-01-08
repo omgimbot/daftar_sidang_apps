@@ -54,7 +54,11 @@ public class DrawerHeader {
         String username = (mProfile.getResult().getUsername().contains(" "))
                 ? mProfile.getResult().getUsername() : mProfile.getResult().getUsername();
         nameTxt.setText(nama);
-        emailTxt.setText(username);
+        if (nama.equals("Admin I") || nama.equals("Admin II")){
+            emailTxt.setText("");
+        } else {
+            emailTxt.setText(username);
+        }
 //        if(!user_photo.equals(""))
 //            Glide.with(mContext)
 //                    .load(App.getApplication().getString(R.string.img_end_point))

@@ -4,8 +4,8 @@
     <string name="app_id">v2.2</string>
     <string name="app_name_country">Provinsi Lampung</string>
     <!--        <string name="end_point">http://150.107.142.62:5050</string>-->
-    <!--    <string name="end_point">http://192.168.18.5:5051/</string>-->
-    <string name="end_point">http://192.168.18.4:5051/</string>
+    <string name="end_point">http://192.168.18.5:5051/</string>
+    <!--    <string name="end_point">http://192.168.18.4:5051/</string>-->
     <!--    <string name="end_point">http://192.168.18.9:5050/</string>-->
     <string name="img_end_point">http://testing.kartupetaniberjaya.com/admin/gambar_barang/</string>
 
@@ -270,7 +270,7 @@
         tortor.
     </string>
     <string-array name="role">
-        <item>DOSEN</item>
+<!--        <item>DOSEN</item>-->
         <item>MAHASISWA</item>
     </string-array>
 
@@ -323,6 +323,8 @@
     <string name="save">Simpan</string>
     <string name="dosen">Dosen</string>
     <string name="mhs">Mahasiswa</string>
+    <string name="dafkom">Pendaftaran</string>
+    <string name="dSuratTugas">Surat Tugas</string>
     <string name="go_login">Sudah punya akun ? silahkan masuk !</string>
     <string name="go_regist">Belum punya akun ? Daftar Sekarang !</string>
     <string name="popup_a">Keuntungan bergabung dengan KPB ?</string>

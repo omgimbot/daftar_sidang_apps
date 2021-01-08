@@ -114,8 +114,8 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
         }
         adapterDosen = new LinkedHashMapAdapter<String, String>(this, android.R.layout.simple_spinner_item, listdosen);
         adapterDosen.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        mListDosen.setAdapter(adapterDosen);
-        mListDosen.setOnItemSelectedListener(this);
+//        mListDosen.setAdapter(adapterDosen);
+//        mListDosen.setOnItemSelectedListener(this);
 
     }
 
@@ -123,7 +123,7 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         switch (parent.getId()) {
             case R.id.mSpinner:
-                if (position == 0) {
+                if (position != 0) {
                     layoutNIDN.setVisibility(View.VISIBLE);
                     layoutNPM.setVisibility(View.GONE);
                     layoutFakultas.setVisibility(View.GONE);
@@ -134,7 +134,7 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
                     layoutNPM.setVisibility(View.VISIBLE);
                     layoutFakultas.setVisibility(View.VISIBLE);
                     layoutProdi.setVisibility(View.VISIBLE);
-                    layoutDosenBimbing.setVisibility(View.VISIBLE);
+                    layoutDosenBimbing.setVisibility(View.GONE);
 
                 }
                 break;
@@ -165,12 +165,12 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
                 mProdi.setAdapter(adapter);
                 break;
 
-            case R.id.mListDosen:
-                Map.Entry<String, String> itemDosen = (Map.Entry<String, String>) mListDosen.getSelectedItem();
-                nidnDosenPembimbing = itemDosen.getKey();
-
-//                Log.d("Desa", itemDesa.getKey());
-                break;
+//            case R.id.mListDosen:
+//                Map.Entry<String, String> itemDosen = (Map.Entry<String, String>) mListDosen.getSelectedItem();
+//                nidnDosenPembimbing = itemDosen.getKey();
+//
+////                Log.d("Desa", itemDesa.getKey());
+//                break;
         }
 
     }
