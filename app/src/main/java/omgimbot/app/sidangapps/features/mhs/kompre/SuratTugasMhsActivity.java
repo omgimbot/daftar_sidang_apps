@@ -40,6 +40,7 @@ import omgimbot.app.sidangapps.App;
 import omgimbot.app.sidangapps.R;
 import omgimbot.app.sidangapps.features.mhs.dashboard.DashboardMhsActivity;
 import omgimbot.app.sidangapps.features.mhs.judul.JudulMhsActivity;
+import omgimbot.app.sidangapps.ui.SweetDialogs;
 
 public class SuratTugasMhsActivity extends AppCompatActivity {
 
@@ -73,6 +74,10 @@ public class SuratTugasMhsActivity extends AppCompatActivity {
 
     @OnClick(R.id.mDownloadSuratTugas)
     void  generatePDF() {
+        SweetDialogs.commonWarningWithIntent(this, "Download...", "Download Berhasil!!", view -> this.doDownload());
+    }
+
+    private void doDownload() {
         DownloadManager downloadmanager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
         String uriDownload = App.getApplication().getString(R.string.end_point)+"exportpdf";
         Log.d("urlnya" , uriDownload);

@@ -169,6 +169,10 @@ public class TracerStudiDosenActivity extends AppCompatActivity implements Adapt
 
     @OnClick(R.id.mPrint)
     void  generateExcel() {
+        SweetDialogs.commonWarningWithIntent(this, "Download...", "Download Berhasil!!", view -> this.doDownload());
+    }
+
+    private void doDownload() {
         DownloadManager downloadmanager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
         String uriDownload = App.getApplication().getString(R.string.end_point)+"exportexcel";
         Log.d("urlnya" , uriDownload);
@@ -189,6 +193,7 @@ public class TracerStudiDosenActivity extends AppCompatActivity implements Adapt
 
         downloadmanager.enqueue(request);
     }
+
 
     @Override
     public void onClickDetail( TracerStudi data ) {
