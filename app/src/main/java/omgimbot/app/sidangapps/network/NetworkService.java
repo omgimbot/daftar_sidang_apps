@@ -72,6 +72,9 @@ public interface NetworkService {
     @GET("cekJudul/{nim}/{key}")
     Call<daftarModel> cekJudul(@Path("nim") String nim,@Path("key") String key);
 
+    @GET("cekpengujimhs/{nim}")
+    Call<CommonRespon> cekPengujiMhs(@Path("nim") String nim);
+
     @GET("listdosen")
     Call<List<Users>> getListDosen();
 

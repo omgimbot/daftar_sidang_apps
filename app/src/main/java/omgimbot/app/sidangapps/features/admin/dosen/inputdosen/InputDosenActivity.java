@@ -68,7 +68,7 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
 
     public  InputDosenPresenter presenter;
     SweetAlertDialog sweetAlertDialog;
-    String kodeMk, mk, idPenguji;
+    String kodeMk, mk, mataUji, idPenguji;
     public InputDosenAdapter adapter;
     private LinkedHashMap<String, String> listmk, listdosen;
     private LinkedHashMapAdapter<String, String> adaptermk;
@@ -126,6 +126,7 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
             model.setNama(nama);
             model.setNim(nim);
             model.setKodeMk(kodeMk);
+            model.setNamaMk(mataUji);
             presenter.updatePenguji(id,model);
         } else {
             TopSnakbar.showWarning(this, "Data Tidak Boleh Kosong !");
@@ -158,6 +159,7 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
             model.setNama(nama);
             model.setNim(nim);
             model.setKodeMk(kodeMk);
+            model.setNamaMk(mataUji);
             presenter.inputDosen(model);
         } else {
             TopSnakbar.showWarning(this, "Data Tidak Boleh Kosong !");
@@ -250,6 +252,7 @@ public class InputDosenActivity extends AppCompatActivity implements AdapterView
             case R.id.mListMk:
                 Map.Entry<String, String> itemMk = (Map.Entry<String, String>) mListmk.getSelectedItem();
                 kodeMk = itemMk.getKey();
+                mataUji = itemMk.getValue();
                 break;
         }
     }

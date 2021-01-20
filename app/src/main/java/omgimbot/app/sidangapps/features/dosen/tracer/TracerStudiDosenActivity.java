@@ -189,7 +189,7 @@ public class TracerStudiDosenActivity extends AppCompatActivity implements Adapt
         if (!wallpaperDirectory.exists()) {
             wallpaperDirectory.mkdirs();
         }
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"Tracer-Study.xlsx");
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"Tracer-Study.xlxs");
 
         downloadmanager.enqueue(request);
     }

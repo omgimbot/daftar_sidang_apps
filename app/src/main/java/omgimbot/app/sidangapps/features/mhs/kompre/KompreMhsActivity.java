@@ -143,7 +143,7 @@ public class KompreMhsActivity extends AppCompatActivity implements IJudulMhsVie
             model.setJudul(mJudul.getText().toString());
             model.setNim(mNim.getText().toString());
             model.setFile(mFile.getText().toString());
-            model.setStatus("pending");
+            model.setStatus("acc");
             model.setDosen(dosen);
             model.setKey("kompre");
             presenter.daftarJudul(this, model, myFile, path2, uri);

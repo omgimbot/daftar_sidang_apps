@@ -11,6 +11,9 @@ public class dosenPenguji {
     private String nim;
     @SerializedName("kodeMk")
     private String kodeMk;
+    @SerializedName("namaMk")
+    private String namaMk;
+
 
     public String get_id() { return _id; }
 
@@ -39,4 +42,8 @@ public class dosenPenguji {
     public void setKodeMk(String kodeMk) {
         this.kodeMk = kodeMk;
     }
+
+    public String getNamaMk() {return namaMk;}
+
+    public void setNamaMk(String namaMk) {this.namaMk = namaMk;}
 }

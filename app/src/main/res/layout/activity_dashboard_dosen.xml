@@ -195,7 +195,8 @@
                                         android:layout_weight="1"
                                         android:gravity="center"
                                         android:orientation="vertical"
-                                        android:padding="8dp">
+                                        android:padding="8dp"
+                                        android:visibility="gone">
 
                                         <androidx.cardview.widget.CardView
                                             android:id="@+id/mCardkompre"

@@ -48,7 +48,8 @@ tools:context=".features.mhs.kompre.SuratTugasMhsActivity">
                 android:layout_marginTop="10dp"
                 android:text="@string/dSuratTugas"
                 android:textColor="@color/white"
-                app:backgroundTint="@color/color_default_blue" />
+                app:backgroundTint="@color/color_default_blue"
+                android:visibility="visible"/>
         </LinearLayout>
 
     </LinearLayout>
