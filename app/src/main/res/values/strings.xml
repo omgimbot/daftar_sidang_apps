@@ -1,13 +1,9 @@
 <resources>
-    <string name="app_name">Sidang Apps</string>
+    <string name="app_name">PSPM</string>
     <string name="app_name_detail">Sidang Apps</string>
     <string name="app_id">v2.2</string>
     <string name="app_name_country">Provinsi Lampung</string>
-    <!--        <string name="end_point">http://150.107.142.62:5050</string>-->
     <string name="end_point">http://192.168.18.5:5051/</string>
-    <!--    <string name="end_point">http://192.168.18.4:5051/</string>-->
-    <!--    <string name="end_point">http://192.168.18.9:5050/</string>-->
-    <string name="img_end_point">http://testing.kartupetaniberjaya.com/admin/gambar_barang/</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
