@@ -169,7 +169,7 @@ public class TracerStudiDosenActivity extends AppCompatActivity implements Adapt
 
     @OnClick(R.id.mPrint)
     void  generateExcel() {
-        SweetDialogs.commonWarningWithIntent(this, "Download...", "Download Berhasil!!", view -> this.doDownload());
+        SweetDialogs.commonWarningWithIntent(this, "Download", "Download Sekarang?", view -> this.doDownload());
     }
 
     private void doDownload() {
@@ -183,6 +183,7 @@ public class TracerStudiDosenActivity extends AppCompatActivity implements Adapt
         request.setDescription("Downloading");
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
         request.setVisibleInDownloadsUi(false);
+        request.allowScanningByMediaScanner();
         File wallpaperDirectory = new File(
                 Environment.getExternalStorageDirectory() + "sidangApps/");
         // have the object build the directory structure, if needed.
