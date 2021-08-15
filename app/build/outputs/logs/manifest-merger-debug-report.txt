@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:2:1-20:12
-MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:2:1-18:12
-MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\35fd0323aefe4b3ba5a406705311631a\jetified-topsnackbar-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:2:1-18:12
+MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\ce6116830df32317eab8dca37879964a\jetified-topsnackbar-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\c9350c4470b6f4895016aaf418fed985\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.mohammadatif:Animatoo:master] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2ab21864a27c8c67a543e99b0af6c889\jetified-Animatoo-master\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\780dca39713ff2fcf4eadcaf494ac982\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -16,13 +16,13 @@ MERGED from [com.github.delight-im:Android-AdvancedWebView:v3.0.0] C:\Users\bram
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\5882865abf8e9a7b08118a41615cc7c9\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\c9e3c86218f0ebf08d011b105d6d4b36\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\f52122426ed85128097908a2e58f6328\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.mindorks:placeholderview:0.2.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\5b66a6950eba8fb5587b5370cfe871ad\jetified-placeholderview-0.2.7\AndroidManifest.xml:2:1-12:12
+MERGED from [com.mindorks:placeholderview:0.2.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\df6ceb5d26e58b0f4735b1e2ad6b2f6b\jetified-placeholderview-0.2.7\AndroidManifest.xml:2:1-12:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\b5c8e5aedcf7a33e381cfcfbcb26dba4\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:google-material-typeface:2.2.0.1.original] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\a87aae1da088135031671d15fdc2b72b\jetified-google-material-typeface-2.2.0.1.original\AndroidManifest.xml:17:1-29:12
-MERGED from [com.mikepenz:iconics-core:2.5.9] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\9b31a4f144485e1049401a1cfb3e008b\jetified-iconics-core-2.5.9\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2f94711fa240eb5ac8ce6e5539e69e5d\jetified-library-circular-1.3.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.mikepenz:iconics-core:2.5.9] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\90d1299c0a102bcd3c88c2b58b2f5dcb\jetified-iconics-core-2.5.9\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\f01bf070315639f6ec90c42b509e9c13\jetified-library-circular-1.3.0\AndroidManifest.xml:2:1-14:12
 MERGED from [com.github.thomper:sweet-alert-dialog:v1.4.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\6dd8de4be6c494f866d8d26b98624910\jetified-sweet-alert-dialog-v1.4.0\AndroidManifest.xml:2:1-13:12
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:2:1-19:12
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:2:1-19:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\15d53baba00ef242e470b83c748b0a16\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\1fa276bd61947c3e74ed195b3ad0a13b\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\c85e1f195321245fafe1a599b5dddf47\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -61,51 +61,51 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\40996d6039fa2fb22354b30f3d767665\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2c4abb3c9f84da22a9da11e175a85c23\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\910924eda8f4749ebe4fc5cc7fa90dff\jetified-materialish-progress-1.7\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.VIBRATE
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:5:22-63
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:5:22-63
 uses-permission#android.permission.INTERNET
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:7:5-80
 MERGED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:11:5-80
 MERGED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:9:5-82
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:9:5-82
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:9:22-79
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:9:22-79
 application
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:11:5-53:19
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:11:5-53:19
 MERGED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:13:5-18:19
 MERGED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:13:5-18:19
-MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:11:5-16:19
-MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:11:5-16:19
+MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:11:5-16:19
+MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:11:5-16:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\c9350c4470b6f4895016aaf418fed985\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\c9350c4470b6f4895016aaf418fed985\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\213ad6fce5ea38e5799c707ff664b050\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -118,12 +118,12 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\bram1\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\b5c8e5aedcf7a33e381cfcfbcb26dba4\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.mikepenz:google-material-typeface:2.2.0.1.original] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\a87aae1da088135031671d15fdc2b72b\jetified-google-material-typeface-2.2.0.1.original\AndroidManifest.xml:27:5-20
 MERGED from [com.mikepenz:google-material-typeface:2.2.0.1.original] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\a87aae1da088135031671d15fdc2b72b\jetified-google-material-typeface-2.2.0.1.original\AndroidManifest.xml:27:5-20
-MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2f94711fa240eb5ac8ce6e5539e69e5d\jetified-library-circular-1.3.0\AndroidManifest.xml:12:5-20
-MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2f94711fa240eb5ac8ce6e5539e69e5d\jetified-library-circular-1.3.0\AndroidManifest.xml:12:5-20
+MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\f01bf070315639f6ec90c42b509e9c13\jetified-library-circular-1.3.0\AndroidManifest.xml:12:5-20
+MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\f01bf070315639f6ec90c42b509e9c13\jetified-library-circular-1.3.0\AndroidManifest.xml:12:5-20
 MERGED from [com.github.thomper:sweet-alert-dialog:v1.4.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\6dd8de4be6c494f866d8d26b98624910\jetified-sweet-alert-dialog-v1.4.0\AndroidManifest.xml:11:5-20
 MERGED from [com.github.thomper:sweet-alert-dialog:v1.4.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\6dd8de4be6c494f866d8d26b98624910\jetified-sweet-alert-dialog-v1.4.0\AndroidManifest.xml:11:5-20
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:11:5-17:19
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:11:5-17:19
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:11:5-17:19
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:11:5-17:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
@@ -133,139 +133,139 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\br
 MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\910924eda8f4749ebe4fc5cc7fa90dff\jetified-materialish-progress-1.7\AndroidManifest.xml:11:5-20
 MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\910924eda8f4749ebe4fc5cc7fa90dff\jetified-materialish-progress-1.7\AndroidManifest.xml:11:5-20
 	android:requestLegacyExternalStorage
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:16:9-52
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:16:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:19:9-40
 	android:usesCleartextTraffic
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:20:9-44
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:20:9-44
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:12:9-28
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:12:9-28
 activity#omgimbot.app.sidangapps.features.mhs.kompre.SuratTugasMhsActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:21:9-88
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:21:9-88
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:21:19-76
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:21:19-76
 activity#omgimbot.app.sidangapps.features.dosen.tracer.tracerdetail.DetailTracerActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:22:9-93
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:22:9-93
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:22:19-90
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:22:19-90
 activity#omgimbot.app.sidangapps.features.dosen.tracer.TracerStudiDosenActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:23:9-84
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:23:9-84
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:23:19-81
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:23:19-81
 activity#omgimbot.app.sidangapps.features.admin.mhs.tracerStudi.TracerStudiActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:24:9-88
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:24:9-88
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:24:19-85
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:24:19-85
 activity#omgimbot.app.sidangapps.features.admin.dosen.inputdosen.InputDosenActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:25:9-88
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:25:9-88
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:25:19-85
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:25:19-85
 activity#omgimbot.app.sidangapps.features.admin.mhs.pilihpenguji.PilihPengujiMhsActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:26:9-93
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:26:9-93
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:26:19-90
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:26:19-90
 activity#omgimbot.app.sidangapps.features.admin.mhs.MahasiswaAdminActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:27:9-79
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:27:9-79
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:27:19-76
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:27:19-76
 activity#omgimbot.app.sidangapps.features.admin.dashboard.DashboardAdminActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:28:9-85
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:28:9-85
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:28:19-82
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:28:19-82
 activity#omgimbot.app.sidangapps.features.webview.PortalInformasiActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:29:9-78
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:29:9-78
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:29:19-75
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:29:19-75
 activity#omgimbot.app.sidangapps.features.mhs.pengumuman.PengumumanActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:30:9-80
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:30:9-80
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:30:19-77
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:30:19-77
 activity#omgimbot.app.sidangapps.features.dosen.kompre.KompreDosenActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:31:9-79
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:31:9-79
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:31:19-76
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:31:19-76
 activity#omgimbot.app.sidangapps.features.dosen.munaqosah.MunaqosahDosenActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:32:9-85
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:32:9-85
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:32:19-82
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:32:19-82
 activity#omgimbot.app.sidangapps.features.dosen.sempro.SemproDosenActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:33:9-79
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:33:9-79
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:33:19-76
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:33:19-76
 activity#omgimbot.app.sidangapps.features.mhs.kompre.KompreMhsActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:34:9-75
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:34:9-75
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:34:19-72
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:34:19-72
 activity#omgimbot.app.sidangapps.features.mhs.munaqosah.MunaqosahMhsActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:35:9-81
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:35:9-81
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:35:19-78
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:35:19-78
 activity#omgimbot.app.sidangapps.features.mhs.sempro.SemproMhsActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:36:9-75
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:36:9-75
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:36:19-72
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:36:19-72
 activity#omgimbot.app.sidangapps.features.mhs.judul.JudulMhsActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:37:9-73
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:37:9-73
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:37:19-70
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:37:19-70
 activity#omgimbot.app.sidangapps.features.dosen.judul.JudulDosenActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:38:9-77
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:38:9-77
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:38:19-74
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:38:19-74
 activity#omgimbot.app.sidangapps.features.mhs.dashboard.DashboardMhsActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:39:9-81
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:39:9-81
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:39:19-78
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:39:19-78
 activity#omgimbot.app.sidangapps.features.dosen.dashboard.DashboardDosenActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:40:9-85
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:40:9-85
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:40:19-82
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:40:19-82
 activity#omgimbot.app.sidangapps.features.auth.regist.RegisterActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:41:9-75
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:41:9-75
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:41:19-72
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:41:19-72
 activity#omgimbot.app.sidangapps.features.auth.login.LoginActivity
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:42:9-52:20
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:42:9-52:20
 	android:screenOrientation
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:44:13-49
 	android:windowSoftInputMode
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:46:13-55
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:46:13-55
 	android:theme
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:45:13-48
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:45:13-48
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:43:13-62
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:43:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:47:13-51:29
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:50:17-77
+ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:50:27-74
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml:50:27-74
 uses-sdk
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 MERGED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:7:5-9:41
-MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\35fd0323aefe4b3ba5a406705311631a\jetified-topsnackbar-1.1.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\35fd0323aefe4b3ba5a406705311631a\jetified-topsnackbar-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\ce6116830df32317eab8dca37879964a\jetified-topsnackbar-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidadvance:topsnackbar:1.1.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\ce6116830df32317eab8dca37879964a\jetified-topsnackbar-1.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\c9350c4470b6f4895016aaf418fed985\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\c9350c4470b6f4895016aaf418fed985\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.mohammadatif:Animatoo:master] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2ab21864a27c8c67a543e99b0af6c889\jetified-Animatoo-master\AndroidManifest.xml:7:5-9:41
@@ -284,20 +284,20 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bram1\.gradle\cac
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\c9e3c86218f0ebf08d011b105d6d4b36\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\f52122426ed85128097908a2e58f6328\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\f52122426ed85128097908a2e58f6328\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.mindorks:placeholderview:0.2.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\5b66a6950eba8fb5587b5370cfe871ad\jetified-placeholderview-0.2.7\AndroidManifest.xml:8:5-10:41
-MERGED from [com.mindorks:placeholderview:0.2.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\5b66a6950eba8fb5587b5370cfe871ad\jetified-placeholderview-0.2.7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mindorks:placeholderview:0.2.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\df6ceb5d26e58b0f4735b1e2ad6b2f6b\jetified-placeholderview-0.2.7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mindorks:placeholderview:0.2.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\df6ceb5d26e58b0f4735b1e2ad6b2f6b\jetified-placeholderview-0.2.7\AndroidManifest.xml:8:5-10:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\b5c8e5aedcf7a33e381cfcfbcb26dba4\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\b5c8e5aedcf7a33e381cfcfbcb26dba4\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mikepenz:google-material-typeface:2.2.0.1.original] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\a87aae1da088135031671d15fdc2b72b\jetified-google-material-typeface-2.2.0.1.original\AndroidManifest.xml:23:5-25:41
 MERGED from [com.mikepenz:google-material-typeface:2.2.0.1.original] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\a87aae1da088135031671d15fdc2b72b\jetified-google-material-typeface-2.2.0.1.original\AndroidManifest.xml:23:5-25:41
-MERGED from [com.mikepenz:iconics-core:2.5.9] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\9b31a4f144485e1049401a1cfb3e008b\jetified-iconics-core-2.5.9\AndroidManifest.xml:8:5-10:41
-MERGED from [com.mikepenz:iconics-core:2.5.9] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\9b31a4f144485e1049401a1cfb3e008b\jetified-iconics-core-2.5.9\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2f94711fa240eb5ac8ce6e5539e69e5d\jetified-library-circular-1.3.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2f94711fa240eb5ac8ce6e5539e69e5d\jetified-library-circular-1.3.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:2.5.9] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\90d1299c0a102bcd3c88c2b58b2f5dcb\jetified-iconics-core-2.5.9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:2.5.9] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\90d1299c0a102bcd3c88c2b58b2f5dcb\jetified-iconics-core-2.5.9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\f01bf070315639f6ec90c42b509e9c13\jetified-library-circular-1.3.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.castorflex.smoothprogressbar:library-circular:1.3.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\f01bf070315639f6ec90c42b509e9c13\jetified-library-circular-1.3.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.thomper:sweet-alert-dialog:v1.4.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\6dd8de4be6c494f866d8d26b98624910\jetified-sweet-alert-dialog-v1.4.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.thomper:sweet-alert-dialog:v1.4.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\6dd8de4be6c494f866d8d26b98624910\jetified-sweet-alert-dialog-v1.4.0\AndroidManifest.xml:7:5-9:41
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:7:5-9:41
-MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:7:5-9:41
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:7:5-9:41
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\15d53baba00ef242e470b83c748b0a16\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\15d53baba00ef242e470b83c748b0a16\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\1fa276bd61947c3e74ed195b3ad0a13b\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -374,16 +374,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bram1\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\2c4abb3c9f84da22a9da11e175a85c23\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\910924eda8f4749ebe4fc5cc7fa90dff\jetified-materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
 MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\910924eda8f4749ebe4fc5cc7fa90dff\jetified-materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-		ADDED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
-		INJECTED from D:\project\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		ADDED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Nitip\Bram Krisna Danu\android\UIN\daftar_sidang_apps\app\src\main\AndroidManifest.xml
 activity#com.nbsp.materialfilepicker.ui.FilePickerActivity
 ADDED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:14:9-17:20
 	android:theme
@@ -391,23 +391,23 @@ ADDED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\tra
 	android:name
 		ADDED from [com.nbsp:materialfilepicker:1.9.1] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\e81733dc81731ef69d8aea36e341c012\jetified-materialfilepicker-1.9.1\AndroidManifest.xml:15:13-77
 activity#com.obsez.android.lib.filechooser.permissions.PermissionActivity
-ADDED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:12:9-15:56
+ADDED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:12:9-15:56
 	android:label
-		ADDED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:14:13-29
+		ADDED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:14:13-29
 	android:theme
-		ADDED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:15:13-53
+		ADDED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:15:13-53
 	android:name
-		ADDED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\d5622b810a83256b31d3a8f25b61d309\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:13:13-92
+		ADDED from [com.github.hedzr:android-file-chooser:master-SNAPSHOT] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\8c4eea319f61a5eeaa092a80040aa568\jetified-android-file-chooser-master-SNAPSHOT\AndroidManifest.xml:13:13-92
 provider#net.grandcentrix.tray.provider.TrayContentProvider
-ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:12:9-16:44
+ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:12:9-16:44
 	android:authorities
-		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:14:13-56
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:14:13-56
 	android:multiprocess
-		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:16:13-41
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:16:13-41
 	android:exported
-		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:15:13-37
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\46482064eff9ac26e9d9c94bd725e416\jetified-tray-0.12.0\AndroidManifest.xml:13:13-78
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\03d69edbb9df1a3bc75167cb1fba33fb\jetified-tray-0.12.0\AndroidManifest.xml:13:13-78
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\bram1\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities

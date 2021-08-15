@@ -2610,7 +2610,6 @@ string go_regist
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
-string img_end_point
 string info_1
 string internal_storage
 string item_vertical_stepper

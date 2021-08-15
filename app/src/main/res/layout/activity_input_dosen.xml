@@ -140,6 +140,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="@string/save"
+                android:visibility="gone"
                 android:textColor="@color/white"
                 app:backgroundTint="@color/color_default_blue" />
         </LinearLayout>
